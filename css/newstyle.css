@@ -357,7 +357,7 @@
 }
 
 .addCartMain {
-    display: flex;
+    display: inline-flex;
     width: 50%;
 }
 
@@ -964,6 +964,31 @@
     .contactDetails {
         padding-top: 20px;
     }
+
+    /* product details responsive start */
+    .productDetails .productName .productDesc{
+        max-width: 100%;
+    }
+
+    .productName {
+        width: 100%;
+    }
+
+    .addCartMain{
+        width: 60%;
+        padding-top: 20px;
+    }
+
+    .mainTableBox tr td:nth-child(odd),
+    .mainTableBox tr td:nth-child(even)
+    {
+        width: 50%;
+    }
+
+    .containSec .containDesc{
+        font-size: 20px;
+    }
+    /* product details responsive end */
 
 }
 
