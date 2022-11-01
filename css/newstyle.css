@@ -215,7 +215,6 @@
 .sendButton .btn:hover {
     background-color: #000;
     transition: all .4s ease-in !important;
-
 }
 
 .burgerImg {
@@ -223,6 +222,121 @@
     margin-right: 50px;
     z-index: 99;
 }
+
+
+
+
+/* product-details css */
+.productDetailSec{
+    padding-top: 38px;
+}
+
+.productDetailSec .secHead{
+    margin-bottom: 65px;
+}
+
+.productDetailsCol{
+    padding: 0 20px;
+}
+
+.productBoxMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productsBox {
+    width: 50%;
+    padding: 0 12px;
+}
+
+
+
+.productDetails{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 60px 65px;
+}
+
+.productDetails .quantityBox{
+    width: 254px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.productDetails .quantityBox .qtyplus{
+    bottom: 14px;
+    right: inherit;
+    left: 70px;
+}
+
+.productDetails .quantityBox .qtyminus{
+    top: 14px;
+    right: inherit;
+    left: 70px;
+}
+
+.productDetails .productName .productTitle{
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    padding-bottom: 37px;
+}
+
+.productDetails .productName .productDesc{
+    font-size: 18px;
+    max-width: 400px;
+}
+
+.productName{
+    width: 50%;
+}
+
+.addCartMain{
+    display: flex;
+    width: 50%;
+}
+
+.productDetails .quantityBox #quantityField{
+   text-align: start;
+   padding-left: 40px;
+   font-size: 18px;
+}
+
+.cartButton .btn{
+    background-color: #09aa6e;
+    color: #fff;
+    font-size: 17px;
+    margin-left: -135px;
+    padding: 26px 20px;
+}
+
+.cartButton .btn .icon{
+    font-size: 26px;
+}
+
+.btn .btn-white-outline:hover{
+    background-color: #000;
+    transition: all .4s ease-in !important;
+    border: none;
+}
+
+.productTable .productTitle{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: bold;
+    padding: 0 65px;
+}
+
+
+
+
+
 
 /*  responsive -css*/
 @media only screen and (max-width: 1660px) {
@@ -275,7 +389,7 @@
         margin: 0px 120px auto;
     }
 
-    .getTouchSec{
+    .getTouchSec {
         margin-top: 70px;
     }
 
@@ -314,7 +428,7 @@
         padding-top: 120px;
     }
 
-    .formDetails{
+    .formDetails {
         padding: 57px 30px;
     }
 
@@ -475,7 +589,7 @@
         height: 700px;
     }
 
-    .formDetails{
+    .formDetails {
         max-width: 100%;
     }
 
@@ -492,7 +606,7 @@
         align-items: start;
     }
 
-    .getTouchDesc .secHead{
+    .getTouchDesc .secHead {
         width: 100%;
     }
 
@@ -508,9 +622,9 @@
         padding-bottom: 0;
     }
 
-     .sendButton .btn{
+    .sendButton .btn {
         padding: 25px;
-     }
+    }
 }
 
 
@@ -536,7 +650,7 @@
         width: 100%;
     }
 
-    .contactDetails{
+    .contactDetails {
         width: 100%;
     }
 
@@ -547,7 +661,7 @@
     .getTouchDesc .secHead {
         margin-bottom: 20px;
     }
-    
+
 
     .formTitle {
         font-size: 24px;
@@ -576,14 +690,14 @@
 
 
 @media only screen and (max-width: 479px) {
-    .getTouchBox{
+    .getTouchBox {
         padding: 0;
     }
 
     .getTouchImg {
         top: -124px;
     }
-    
+
     .burgerImg {
         margin-top: -80px;
         margin-right: 0;
@@ -594,7 +708,7 @@
 }
 
 @media only screen and (max-width: 380px) {
-    .burgerImg{
+    .burgerImg {
         margin-left: 25px;
     }
 }
