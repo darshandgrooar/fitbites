@@ -289,7 +289,7 @@
     position: relative;
     display: block;
     width: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 83%;
 }
 
 .productsBoxImg img {
@@ -859,9 +859,55 @@ tr:nth-child(odd) {
     }
 
     /* product-details resposive  start*/
-    .productDetailsCol:last-child{
+    .productDetailSec .secHead {
+        margin-bottom: 30px;
+    }
+
+    .productDetailsCol:last-child {
         width: 100%;
     }
+
+    .caloriesCricle {
+        height: 80px;
+        width: 80px;
+        top: -40px;
+    }
+
+    .caloriesCricle span {
+        font-size: 24px;
+    }
+
+    .caloriesCricle small {
+        font-size: 14px;
+    }
+
+    .productDetails {
+        padding: 30px 22px;
+    }
+
+    .cartButton .btn {
+        font-size: 14px;
+        min-width: 175px;
+    }
+
+    .productDetails .quantityBox #quantityField {
+        padding-left: 32px;
+    }
+
+    .productDetails .quantityBox .qtyminus,
+    .productDetails .quantityBox .qtyplus {
+        left: 60px;
+    }
+
+    .tableCat {
+        margin: 30px 0 50px;
+    }
+
+    .productDetailSec{
+        padding-bottom: 60px;
+    }
+
+
     /* product-details resposive  end*/
 }
 
