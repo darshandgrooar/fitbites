@@ -229,6 +229,8 @@
 /* product-details css */
 .productDetailSec{
     padding-top: 38px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 95px;
 }
 
 .productDetailSec .secHead{
@@ -237,6 +239,38 @@
 
 .productDetailsCol{
     padding: 0 20px;
+}
+
+.productCaloriesBox{
+    position: relative;
+}
+
+.caloriesCricle{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    left: inherit;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+    background-color: #09aa6e;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0;
+
+}
+
+.caloriesCricle span{
+    display: block;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.caloriesCricle small{
+    font-weight: 600;
 }
 
 .productBoxMain {
@@ -249,7 +283,9 @@
     padding: 0 12px;
 }
 
-
+.productDetailsCol:last-child{
+    width: 74%;
+}
 
 .productDetails{
     display: flex;
@@ -316,6 +352,7 @@
 
 .cartButton .btn .icon{
     font-size: 26px;
+    padding: 0 20px;
 }
 
 .btn .btn-white-outline:hover{
@@ -332,6 +369,57 @@
     font-weight: bold;
     padding: 0 65px;
 }
+
+.tableCat{
+    width: 100%;
+    margin: 30px 0 90px;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.tableCat .catName{
+    padding-left: 62px;
+    width: 44%;
+}
+
+.tableCat .catPrice{
+    width: 56%;
+}
+
+.catName,.catPrice{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 0;
+}
+
+.containSec{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.containSec .containDesc{
+    position: relative;
+    padding-left: 61px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+}
+
+.containImg{
+    position: absolute;
+    left: 0;
+    top: -10px;
+}
+
+.containSec img{
+    width: 42px;
+    height: 42px;
+}
+
 
 
 
