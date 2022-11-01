@@ -1,0 +1,175 @@
+/*--FAQ-sec css---*/
+.faqSec {
+    border-bottom: 1px solid #eaeaea;
+    padding: 70px 0;
+}
+
+.faqSec .secHead{
+    margin-bottom: 70px;
+}
+
+.faqsMain {
+    max-width: 1140px;
+    margin: 0 240px auto;
+}
+
+.faqsmain .accordion-item {
+    background: #fff;
+    margin-bottom: 35px;
+    border: 0;
+}
+
+.accordion-item {
+    border: 0;
+    margin-bottom: 45px;
+}
+
+.accordion-item:last-child{
+    margin-bottom: 10px;
+}
+
+.faqsMain .accordion-header {
+    position: relative;
+}
+
+.faqsMain .accordion-item .accordion-header .accordion-button{
+    padding: 12px 35px 15px 65px;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    background-color: #eeeeee;
+    display: block;
+    padding-right: 90px;
+}
+
+.accordion-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 35px;
+    margin: auto;
+    background-image: url(../img/svg/plus.svg);
+    object-fit: contain;
+    object-position: center;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.accordion-button:focus {
+    border-color: inherit;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/svg/minus.svg);
+}
+
+/*.accordion-button:not(.collapsed){
+    color: #fff;
+    background-color: #1989ff;
+}*/
+
+
+.accordion-body .cmsCon {
+    padding: 30px 65px 0 65px;
+}
+
+.accordion-item .cmsCon p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+
+/* FAQ-baneer-section css */
+.faqBanerSec img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* FAQ-section responsive */
+@media only screen and (max-width: 1660px) {
+    .faqsMain{
+        margin: 0px 180px auto;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .faqsMain{
+        margin: 0px 120px auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .accordion-item{
+        margin-bottom: 30px;
+    }
+
+    .faqsMain{
+        margin: 0px 30px auto;
+    }
+
+    .faqsMain .accordion-item .accordion-header .accordion-button{
+        padding: 12px 35px 15px 15px;
+        padding-right: 70px;
+    }
+
+    .accordion-button::after{
+        right: 20px;
+    }
+
+    .accordion-body .cmsCon {
+        padding: 30px 10px 0;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .faqsMain{
+        margin: 0 20px auto;
+    }
+
+    .faqsMain .accordion-item .accordion-header .accordion-button{
+        font-size: 14px;
+    }
+
+    .accordion-button::after{
+        background-size: 26px;
+        width: 26px;
+        height: 26px;
+        right: 30px;
+    }
+
+    .accordion-body .cmsCon {
+        padding: 20px 10px 0;
+    }
+
+    .accordion-item .cmsCon p {
+        font-size: 14px;
+    }
+}
+
+  
+@media only screen and (max-width: 479px) {
+    .faqsMain{
+        margin: 0;
+    }
+
+    .faqsMain .accordion-item .accordion-header .accordion-button{
+        padding: 17px 35px 13px 10px;
+        padding-right: 60px;
+    }
+
+    .accordion-button::after{
+        right: 10px;
+    }
+}

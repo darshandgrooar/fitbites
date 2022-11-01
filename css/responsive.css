@@ -1,0 +1,623 @@
+/* css only for hover effect all hover effect must write in this Media query */
+
+@media only screen and (max-width: 1920px) {
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1660px) {
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1599px) {
+
+.secTitle{font-size: 75px;}
+/*---home-page---*/
+.banproductText{padding-left: 300px;}
+.banproductTitle{font-size: 24px;max-width: 60%;}
+.banproductMian .slickarrdotmain{left: 150px;}
+.bannerconMain{padding-left: 50px;padding-top: 120px;}
+.bannercon{max-width: 60%;margin-bottom: 110px;}
+.banproductMian .btn{right: 50px;}
+.headMenu{padding-left: 56px;}
+.headcall{margin-left: 20px;}
+.loginmain{margin-left: 20px;}
+.cartmenu{margin-left: 20px;}
+.menuSocial.socialMeadia{margin-left: 20px;}
+
+.productmenulist li{font-size: 20px;margin-bottom: 30px;}
+.productdetail{padding: 14px 18px;padding-bottom: 0;}
+.addcartmain .cart{width: 48px;height: 48px;margin-left: 8px;}
+.addcartmain .cart .icon{line-height: 48px;font-size: 24px;}
+.productsboxmain{margin: 0 -10px;}
+.productsbox{padding: 0 10px;}
+
+.aboutgrabgoSec{padding-left: 50px;padding-top: 66px;padding-bottom: 75px;}
+.aboutgrabgoimg{margin-top: -142px;margin-left: -10px;}
+/*---home-page---*/
+
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+
+.secTitle{font-size: 60px;margin-bottom: 25px;}
+/*---home-page---*/
+.cart{width: 50px;height: 50px;}
+.cart .icon{line-height: 50px;font-size: 26px;}
+.headMenu{padding: 18px 15px;}
+.bannercon{margin-bottom: 80px;max-width: 70%;}
+.banproductMian .slickarrdotmain{left: 100px;}
+.banproductText{padding-left: 280px;}
+.bannerrow{min-height: calc(100vh - 101px);}
+.banproductimg{padding-bottom: calc(88vh - 101px);}
+.banproductMian .slickarrdotmain{bottom: 120px;}
+.banproductMian .btn{bottom: 95px;}
+.productmenulist{padding-top: 40px;}
+.productmenulist li{font-size: 18px;margin-bottom: 20px;}
+.productlistcol:first-child{width: 24%;}
+.productlistcol:last-child{width: 76%;}
+.productdetail{padding: 14px 0;padding-bottom: 0;}
+.productmenulist .btn.btn-outline{min-width: 200px;font-size: 15px;padding: 24px 20px;border-radius: 33px;margin-left: 20px;}
+.aboutgrabgoimg{margin-top: -115px;}
+.footerDesc{max-width: 100%;}
+
+
+/*---home-page---*/
+
+
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+
+
+
+}
+
+
+
+ 
+
+
+
+/* common css for below screen 1199 */
+
+
+
+@media only screen and (max-width: 1199px) {
+
+html{font-size: 8px;}
+p{font-size: 16px;}
+
+.secHead{margin-bottom: 50px;}
+.secTitle{font-size: 40px;margin-bottom: 20px;}
+.commonSec{padding-top: 50px;padding-bottom: 50px;}
+
+
+/*---header---*/
+.menuMain li{margin-right: 15px;font-size: 14px;}
+.menuMain > ul > li:not(.megaMenu) .sub-menu li a{padding: 10px 15px;font-size: 14px;}
+.headerMain .menuMain li .btn{min-width: 140px;padding: 14px 15px;}
+.headerMain.has_sticky .menuMain li{margin-right: 20px;}
+.headerMain.has_sticky .menuMain li .btn{padding: 14px 15px;}
+.headerMain.has_sticky .menuMain li .btn{font-size: 14px;}
+.headerMain .siteLogo img{width: 170px;}
+.headerMain.has_sticky .siteLogo img{width: 160px;}
+.menuMain li.btn{padding: 9px 15px 9px;min-width: 155px;}
+.headcall .btn .icon{display: block;font-size: 20px; animation: innerCircle 1s ease-in-out infinite alternate;
+-webkit-animation: innerCircle 1s ease-in-out infinite alternate;}
+.headcall .btn{font-size: 0;padding: 0;border: none;min-width: inherit;}
+@keyframes innerCircle {
+    0% {
+        -webkit-transform: rotate(0) skew(1deg)
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+ }
+.loginmain .login{padding-left: 0;font-size: 0;}
+.loginmain .login .icon{position: relative;top: 3px;font-size: 20px;}
+.cart{width: 45px;height: 45px;}
+.cart .icon{line-height: 45px;font-size: 22px;}
+.cart .cart_value_num{width: 22px;height: 22px;line-height: 22px;font-size: 12px;}
+.cartmenu{margin-left: 15px;}
+.socialMeadia a{font-size: 20px;margin-right: 14px;top: 4px;}
+
+/*---header---*/
+
+/*---home-page---*/
+.bannercon{max-width: 100%;margin-bottom: 50px;}
+.bannerconMain{padding-top: 80px;padding-left: 15px;}
+.banproductMian{padding-top: 0;}
+.bannercol:first-child{width: 40%;}
+.bannercol:last-child{width: 60%;}
+.banproductMian .slickarrdotmain{left: 70px;}
+.banproductText{padding-left: 230px;margin-top: -57px;}
+.banproductTitle{font-size: 20px;}
+.banproductMian .btn{right: 15px;padding: 22px 20px;min-width: 110px;}
+.productallSec .secHead{margin-bottom: 40px;}
+.productmenulist{padding-top: 20px;}
+.productmenulist li{font-size: 16px;margin-bottom: 16px;padding-left: 14px;}
+.productmenulist li.active{border-width: 4px;}
+.productmenulist .btn.btn-outline{margin-left: 12px;min-width: 180px;font-size: 14px;padding: 22px 20px;}
+.productdetail{display: block;flex-wrap: inherit;}
+.productnameprices{max-width: 100%;margin-bottom: 5px;}
+.addcartmain{max-width: 100%;text-align: right;}
+.quantityBox{opacity: 1;visibility: visible;}
+.addcartmain .cart{width: 44px;height: 44px;}
+.addcartmain .cart .icon{line-height: 44px;font-size: 22px;}
+.quantityBox{width: 80px;height: 44px;}
+.quantityBox .qtyminus{height: 30%;}
+.quantityBox .qtyplus{height: 30%;}
+.commonSec.productallSec{padding-bottom: 80px;}
+.commonSec.aboutgrabgoSec{padding-left: 15px;}
+.aboutgrabgoSec .secTitle{margin-bottom: 30px;}
+.aboutgrabgoimg{margin-top: -85px;margin-left: 0;}
+
+
+/*---home-page---*/
+
+/*---footer---*/
+.footersec{padding-top: 70px;padding-bottom: 50px;}
+.logoSection{padding-left: 0;}
+.footerLogo{max-width: 200px;margin-bottom: 25px;}
+.quickLinks{padding-left: 0;}
+.contactUs a{font-size: 18px;}
+/*---footer---*/
+
+
+/*---cms-Con---*/
+
+.cmsCon h1{font-size: 40px;margin-bottom: 20px;}
+.cmsCon h2{font-size: 34px;margin-bottom: 20px;}
+.cmsCon h3{font-size: 30px;margin-bottom: 20px;}
+.cmsCon h4{font-size: 26px;margin-bottom: 20px;}
+.cmsCon h5{font-size: 22px;margin-bottom: 20px;}
+.cmsCon h6{font-size: 18px;margin-bottom: 20px;}
+.cmsCon .aligncenter{margin: 30px auto 30px auto;}
+.cmsCon .mb-70{margin-bottom: 50px;}
+.cmsCon hr{height: 10px;margin: 30px 0;}
+.cmsCon .aligncenter.mb-100{margin-bottom: 50px;}
+
+/*---cms-Con---*/
+
+
+/*---404 Page---*/
+
+.errorTitle{font-size: 150px;}
+.errorSubTitle{font-size: 34px;}
+.errorCon p{margin-bottom: 28px;}
+
+/*---404 Page---*/
+
+
+}
+
+
+
+
+
+/* common css for below screen 991 */
+
+
+
+@media only screen and (max-width: 991px) {
+
+.secHead{margin-bottom: 30px;}
+.secTitle{font-size: 32px;}
+
+.slick-prev,.slick-next{width: 18px;height: 18px;}
+.slick-prev:before, .slick-next:before{font-size: 18px;line-height: 18px;}
+
+/*---header---*/
+.headMenu{padding: 10px 15px;}
+.menuIcon { display: inline-block; vertical-align: middle;}
+.m_menuLogo{display: block;width: 100%;padding: 80px 30px 40px;display: block;width: 100%;}
+.headerMain .m_menuLogo .menuLogo{max-width: 80%; display: block;}
+.headerMain .m_menuLogo .menuLogo img{filter:none;}
+.m_menuLogo .closeMenu { position: absolute; right: 25px; top: 20px; width: 35px; height: 35px; padding: 6px;}
+.m_menuLogo .closeMenu:before { content: ''; width: 100%; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #000; -webkit-transform: rotate(45deg); transform: rotate(45deg); margin: auto; bottom: 0;}
+.m_menuLogo .closeMenu:after { content: ''; width: 100%; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #000; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); margin: auto; bottom: 0;}
+.navigationBar { position: fixed; width: 50%; min-height: 100vh; top: 0; bottom: 0; left: -50%; background: #fff; transition: all .6s ease-in-out; margin: 0; z-index: 9999; overflow-y: auto;
+height: 100vh;}
+.navigationBar.slideMenu{left: 0;}
+.menuMain{width: 100%;margin: 0;}
+.menuMain li{width: 100%; display: block; padding:0; margin:0; position: relative;}
+.menuMain li a{display: inline-block; width: auto; padding: 10px 0px; text-align: left;}
+.menuMain > ul > li > a{ font-size: 30px; font-weight: 500;}
+.navigationBar .btn.btn-light.btn-outline{margin: 10px auto !important; color: #fff !important; background: #4a74fe; display: table; min-width: 200px; border-color: #4a74fe;}
+.navigationBar .socialMedia{ display: table; width: 100%;  position: absolute; left: 0; right: 0; bottom: 0; background: #4766fe;}
+
+.navigationBar .menuMain>ul li .arrow:before {content: ""; position: absolute; left: 0; right: 0; top: -2px; bottom: 0; width: 15px;
+height: 15px; border-bottom: 3px solid #000; border-right: 3px solid #000; transform: rotate(-45deg); margin: auto; transition: border .4s ease-in-out, transform .4s ease-in-out;}
+.navigationBar .menuMain>ul li .arrow.minus:before {transform: rotate(135deg);border-color: #000;}
+.navigationBar .menuMain>ul>li ul {display: none; padding: 0!important; position: static!important;
+transform: none!important; left: inherit!important; top: inherit!important; width: auto!important; box-shadow: none!important; opacity: 1!important;
+visibility: visible!important; transition: none!important;}
+.navigationBar .menuMain>ul>li ul li:last-child {border-bottom:0;}
+.navigationBar .menuMain>ul>li>ul>li>ul {padding-left:15px;}
+.navigationBar .menuMain>ul>li>ul>li>ul>li>a {padding-left: 0;}
+.menuMain ul li.megaMenu > ul > li {width: 100%;}
+.megaMenuicon, .menu-text {display: none;}
+.menuMain ul.sub-menu:before{display: none;}
+.menuMain li a:hover:before{display: none;}
+.menuMain > ul > li:not(.megaMenu) .sub-menu{border-top: none;background: none;}
+.darkheaderMain .menuMain ul li.menu-item .arrow{border-bottom: 0;border-right: 0;}
+.menuMain > ul > li:not(.megaMenu) .sub-menu li a{padding: 15px 15px;font-size:28px;border-width: 0; font-weight: 400;}
+.menuMain > ul > li:not(.megaMenu) .subMenu li a {font-weight: 400;}
+.navigationBar .menuMain>ul li {position: relative;}
+
+/*.menuMain > ul > li:not(.megaMenu) .sub-menu li{background: #fff;}
+
+.menuMain > ul > li:not(.megaMenu) .sub-menu li a{color: #fff;}*/
+
+.navigationBar .menuMain>ul li .arrow {position: absolute; right: 0; top: 0; width: 32px; height: 42px; z-index: 999; transform: rotate(90deg); bottom: inherit; border: none;}
+.navigationBar .socialMedia a{padding: 20px; display: table-cell; text-align: center;    border-left: 1px solid #fff;}
+.menuMain ul{padding: 0 30px;padding-bottom: 30px;}
+.headerMain .menuMain li .btn{min-width: auto;padding: inherit;background: transparent;padding: 10px 0px;padding-bottom: 0;}
+.menuMain > ul > li:not(.megaMenu) .sub-menu li a{line-height: 1;}
+.navigationBar .menuMain>ul li .arrow.minus{height: 50px;}
+.menuMain li.current-menu-item a:before, .menuMain li a:hover:before{display: none;}
+.menuMain li a:before{display: none;}
+.headerMain.has_sticky .menuMain li .btn{font-size: 30px;}
+.headerMain.has_sticky .menuMain li .btn{padding: 14px 0;}
+.menuMain li.current-menu-item a{padding-right: 0;}
+.navigationBar .menuMain{margin-right: 0;}
+.menuMain li.btn{margin-top: 15px;display: block;width: auto;padding: 12px 20px 13px;}
+.menuMain li.btn a{padding: 0;font-size: 26px;}
+.heademail{font-size: 14px;padding-left: 24px;}
+.headcall{margin-left: 0;}
+
+/*---header---*/
+
+/*---home-page---*/
+.headcall .btn.btn-outline:hover{border: none;background: transparent;color: #09aa6e;}
+.bannercon{margin-bottom: 30px;}
+.bannerrow{min-height: inherit;}
+.banproductimg{padding-bottom: 87%;}
+.banproductText{padding-left: 160px;margin-top: -30px;margin-bottom: 16px;}
+.banproductMian .slickarrdotmain{width: 60px;height: 18px;left: 45px;bottom: 130px;}
+.banproductMian .btn{position: relative;right: inherit;bottom: inherit;margin-left: 161px;padding: 18px 18px;}
+.bannercol:first-child{width: 43%;}
+.bannercol:last-child{width: 57%;}
+.banproductTitle{max-width: 100%;}
+.banproductMian{padding-bottom: 30px;}
+.productlistcol:first-child{width: 32%;}
+.productlistcol:last-child{width: 68%;}
+.productmenulist .btn.btn-outline{margin-left: 0;min-width: 166px;padding: 20px 18px;margin-top: 10px;}
+.productsboxmain{margin: 0 -7px;}
+.productsbox{padding: 0 7px;width: 50%;}
+.commonSec.productallSec{padding-bottom: 50px;}
+.aboutgrabgoimg{margin-top: -74px;}
+.aboutgrabgoSec .secHead{margin-bottom: 30px;}
+.aboutgrabgoSec .secTitle{margin-bottom: 20px;}
+
+/*---home-page---*/
+
+/*---footer---*/
+.ipad-hide{display: none;}
+.footerLogo{max-width: 180px;margin-bottom: 20px;}
+.footersec{padding: 30px 0}
+.footer-main .row{align-items: center;}
+/*---footer---*/
+
+}
+
+
+
+/* common css for below screen 767 */
+
+
+
+@media only screen and (max-width: 767px) {
+
+	
+
+html{font-size: 6px;}	
+
+p{font-size: 14px;margin-bottom: 15px;}
+.container{max-width: 100%;}
+/*.btn{font-size: 14px;padding: 18px 15px; font-weight: 700;min-width: 150px;}*/
+.secTitle{font-size: 30px;}
+.commonSec{padding-top: 30px;padding-bottom: 30px;}
+
+
+
+/*---header---*/
+.navigationBar{width: 100%;left: -100%;}
+.m_menuLogo .closeMenu{width: 30px;height: 30px;}
+.m_menuLogo{padding: 60px 20px 30px;}
+.headerMain .m_menuLogo .menuLogo{max-width: 50%;}
+.menuMain > ul > li > a{font-size: 26px;}
+.navigationBar .menuMain>ul li .arrow:before{width: 13px;height: 13px;}
+.menuMain > ul > li:not(.megaMenu) .sub-menu li a{padding: 10px 0px;font-size: 24px;}
+.menuMain ul{padding: 0 20px;padding-bottom: 30px;}
+.m_menuLogo .closeMenu{right: 15px;}
+.menuMain li.btn a{font-size: 22px;}
+/*---header---*/
+
+/*---home-page---*/
+.banproductText{padding-left: 40%;margin-bottom: 12px;}
+.banproductTitle{font-size: 18px;}
+.banproductMian .slickarrdotmain{bottom: 125px;}
+.banproductMian .btn{margin-left: 40%;}
+.productmenulist li{font-size: 15px;}
+.aboutgrabgoimg{margin-top: -50px;}
+
+.productlistcol:first-child{width: 100%;}
+.productlistcol:last-child{width: 100%;}
+.productallSec .secHead{margin-bottom: 25px;}
+.productallSec .secTitle{text-align: center;}
+.productsbox{width: 33.33%;}
+.mobFilter{display: block;}
+.sidebarTitle{display: none;}
+.mobFilter{text-align: center;margin-bottom: 20px;}
+.mobFilter .mon_filtCol span {display: inline-block; vertical-align: middle; line-height: 1;}
+.mobFilter .mob_filter.mon_filtCol {border: 2px solid #eaeaea;border-radius: 24px;font-size: 16px;font-weight: 700; padding: 10px 22px;display: inline-block;}
+#sidebar.filtersidebar{position: fixed; padding-right: 0; left: -100vw; top: 0; bottom: 0; background: #fff; width: 100vw; z-index: 999; transition: all 0.4s ease-in-out; padding-top: 50px; overflow: auto;}
+.mobFilter .mob_filter.mon_filtCol .icon{position: relative;top: 3px; margin-right: 8px;}
+#sidebar.filtersidebar.openFilter{left: 0;}
+#sidebar.filtersidebar .sidebarTitle{width: 100vw; background: #09aa6e; padding: 12px 15px; position: relative; color: #fff; line-height: 1.6; height: auto; position: absolute;    top: 0;
+z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;font-size: 16px;}
+#sidebar.filtersidebar.openFilter .sidebarTitle {position: fixed; top: 0; left: 0; z-index: 999;}
+#sidebar.filtersidebar .sidebarTitle:after {content: ""; width: 16px; height: 2px; background: #fff; position: absolute; right: 15px; transform: rotate(-45deg); margin: auto; top: 0; bottom: 0;}
+#sidebar.filtersidebar .sidebarTitle:before {content: ""; width: 16px; height: 2px; background: #fff; position: absolute; right: 15px; transform: rotate(45deg); margin: auto; top: 0; bottom: 0;} 
+
+/*---home-page---*/
+
+/*---footer---*/
+.mb-hide{display: none;}
+/*---footer---*/
+
+
+/*---cmsCon---*/
+.cmsCon p{font-size: 14px;margin-bottom: 15px;}
+.cmsCon p b{font-size: 14px;}
+.cmsCon ul li{font-size: 14px;padding-left: 18px;}
+.cmsCon ol li{font-size: 14px;}
+.cmsCon ul li:before{width: 8px;height: 8px;top: 5px;}
+.cmsCon ul li ul li{padding-left: 14px;}
+.cmsCon ul li ul li:before{width: 6px;height: 2px;top: 8px;}
+.cmsCon h1{font-size: 34px;margin-bottom: 20px;}
+.cmsCon h2{font-size: 30px;margin-bottom: 20px;}
+.cmsCon h3{font-size: 26px;margin-bottom: 20px;}
+.cmsCon h4{font-size: 24px;margin-bottom: 20px;}
+.cmsCon h5{font-size: 20px;margin-bottom: 20px;}
+.cmsCon h6{font-size: 16px;margin-bottom: 20px;}
+.cmsCon .aligncenter{margin: 25px auto 25px auto;}
+.cmsCon .mb-70{margin-bottom: 30px;}
+.cmsCon hr{height: 6px;margin: 25px 0;}
+.cmsCon .aligncenter.mb-100{margin-bottom: 30px;}
+
+/*---cmsCon---*/
+
+/*---404 Page---*/
+
+.errorTitle{font-size: 120px;}
+.errorSubTitle{font-size: 28px;}
+.errorCon p{margin-bottom: 24px;}
+
+/*---404 Page---*/
+
+/*---thank-you---*/
+
+.thankyou .thanktitle {font-size: 40px;}
+.thankyou p {font-size: 16px;margin-bottom: 20px;max-width: 100%;}
+.thankyou img {max-width: 70px;margin-bottom: 10px;}
+
+/*---thank-you---*/
+
+}
+
+
+
+
+
+@media only screen and (max-width: 568px) {
+
+.commonSec{padding-top: 30px;padding-bottom: 30px;}
+
+/*---header---*/
+.headerMain .siteLogo img{width: 150px;}
+.headerMain .m_menuLogo .menuLogo{max-width: 80%;}
+.menuSocial.socialMeadia{display: none;}
+.cartmenu{margin-left: 12px;}
+.cart{width: 40px;height: 40px;}
+.cart .icon{line-height: 40px;font-size: 20px;top: 4px;}
+.menuIcon{margin-left: 18px;}
+.loginmain{margin-left: 0px;}
+.headerMain.has_sticky .siteLogo img{max-width: 140px;}
+.headerMain .m_menuLogo .menuLogo{max-width: 62%;}
+
+
+/*---header---*/
+
+/*---home-page---*/
+.bannercol:first-child{width: 100%;}
+.bannercol:last-child{width: 100%;}
+.bannerconMain{padding-top: 30px;padding-right: 15px;}
+.bannerText .secHead{margin-bottom: 0;}
+.banproductimg img{left: 15px;}
+.banproductMian .slickarrdotmain{left: 35px;}
+.bannerSec{padding-bottom: 130px;}
+.bannercon{position: absolute;bottom: 0;left: 0;right: 0; text-align: left !important;margin-bottom: 25px;padding-left: 15px;padding-right: 15px;}
+.productnameprices{margin-bottom: 10px;}
+.banproductMian .slickarrdotmain{bottom: 18%;}
+.productsbox{width: 50%;}
+
+
+.aboutgrabgocol:first-child{width: 100%;}
+.aboutgrabgocol:last-child{width: 100%;}
+.aboutgrabgoimg{margin: 0;}
+.aboutgrabgoSec:before{width: 80%;height: 50%;}
+.commonSec.aboutgrabgoSec{padding-right: 15px;}
+.aboutgrabgoSec .secTitle br{display: none;}
+.aboutgrabgoSec .secTitle{margin-bottom: 15px;}
+.commonSec.productallSec{padding-bottom: 30px;}
+.contactUs{margin-bottom: 10px;}
+.footerBox{text-align: center;}
+.socialMeadia{text-align: center;display: block;}
+.contactUs a{line-height: 1.4;}
+
+/*---home-page---*/
+
+/*---footer---*/
+
+/*---footer---*/
+
+
+}
+
+
+
+/* common css for below screen 479 */
+
+
+
+@media only screen and (max-width: 479px) {
+
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+
+/*---header---*/
+.headerMain .siteLogo img{width: 140px;}
+.menuIcon{margin-left: 15px;}
+.cartmenu{margin-left: 10px;}
+
+/*---header---*/
+
+/*---home-page---*/
+.productTitle{font-size: 13px;}
+.productprice{font-size: 15px;}
+.banproductMian .slickarrdotmain{bottom: 125px;}
+/*---home-page---*/
+
+
+}
+
+
+@media only screen and (max-width: 350px) {
+
+}
+
+
+/* common css for screen size between 480 to 767 */
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+
+
+/* common css for screen size between 568 to 767 */
+
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+
+
+}
+
+@media only screen and (min-width: 567px) and (max-width: 767px) {
+
+
+}
+
+
+
+
+
+/* common css for screen size between 600 to 767 */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+
+
+	
+
+}
+
+
+
+/* common css for screen size between 768 to 1199 */
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+
+}
+
+
+
+
+
+/* common css for screen size between 768 to 1023 */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+
+
+/* common css for screen size between 1024 to 1199 */
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+
+
+
+}
