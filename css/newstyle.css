@@ -226,26 +226,26 @@
 
 
 
-/* product-details css */
-.productDetailSec{
+/* product-details css  start*/
+.productDetailSec {
     padding-top: 38px;
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 95px;
 }
 
-.productDetailSec .secHead{
+.productDetailSec .secHead {
     margin-bottom: 65px;
 }
 
-.productDetailsCol{
+.productDetailsCol {
     padding: 0 20px;
 }
 
-.productCaloriesBox{
+.productCaloriesBox {
     position: relative;
 }
 
-.caloriesCricle{
+.caloriesCricle {
     position: absolute;
     top: -50px;
     right: 0;
@@ -264,14 +264,15 @@
 
 }
 
-.caloriesCricle span{
+.caloriesCricle span {
     display: block;
     font-size: 33px;
     font-weight: bold;
 }
 
-.caloriesCricle small{
+.caloriesCricle small {
     font-weight: 600;
+    font-size: 18px;
 }
 
 .productBoxMain {
@@ -291,7 +292,7 @@
     padding-bottom: 100%;
 }
 
-.productsBoxImg  img {
+.productsBoxImg img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -305,36 +306,36 @@
     object-position: center;
 }
 
-.productDetailsCol:last-child{
+.productDetailsCol:last-child {
     width: 74%;
 }
 
-.productDetails{
+.productDetails {
     display: flex;
     flex-wrap: wrap;
     align-items: start;
-    padding: 60px 65px;
+    padding: 60px 0;
 }
 
-.productDetails .quantityBox{
+.productDetails .quantityBox {
     width: 254px;
     height: 80px;
     border-radius: 50px;
 }
 
-.productDetails .quantityBox .qtyplus{
+.productDetails .quantityBox .qtyplus {
     bottom: 14px;
     right: inherit;
     left: 70px;
 }
 
-.productDetails .quantityBox .qtyminus{
+.productDetails .quantityBox .qtyminus {
     top: 14px;
     right: inherit;
     left: 70px;
 }
 
-.productDetails .productName .productTitle{
+.productDetails .productName .productTitle {
     font-size: 34px;
     font-weight: bold;
     line-height: 1;
@@ -344,55 +345,57 @@
     padding-bottom: 37px;
 }
 
-.productDetails .productName .productDesc{
+.productDetails .productName .productDesc {
     font-size: 18px;
     max-width: 400px;
 }
 
-.productName{
+.productName {
     width: 50%;
 }
 
-.addCartMain{
+.addCartMain {
     display: flex;
     width: 50%;
 }
 
-.productDetails .quantityBox #quantityField{
-   text-align: start;
-   padding-left: 40px;
-   font-size: 18px;
+.productDetails .quantityBox #quantityField {
+    text-align: start;
+    padding-left: 40px;
+    font-size: 18px;
 }
 
-.cartButton .btn{
+.cartButton {
+    margin-left: -135px;
+}
+
+.cartButton .btn {
     background-color: #09aa6e;
     color: #fff;
     font-size: 17px;
-    margin-left: -135px;
     padding: 26px 20px;
 }
 
-.cartButton .btn .icon{
+.cartButton .btn .icon {
     font-size: 26px;
     padding: 0 20px;
 }
 
-.btn .btn-white-outline:hover{
+.btn .btn-white-outline:hover {
     background-color: #000;
     transition: all .4s ease-in !important;
     border: none;
 }
 
-.productTable .productTitle{
+.productTable .productTitle {
     font-size: 30px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     color: #000;
     font-weight: bold;
-    padding: 0 65px;
 }
 
-.tableCat{
+.tableCat {
     width: 100%;
     margin: 30px 0 90px;
 }
@@ -401,28 +404,28 @@ tr:nth-child(odd) {
     background-color: #eeeeee;
 }
 
-.tableCat .catName{
-    padding-left: 62px;
+.tableCat .catName {
     width: 44%;
 }
 
-.tableCat .catPrice{
+.tableCat .catPrice {
     width: 56%;
 }
 
-.catName,.catPrice{
+.catName,
+.catPrice {
     color: #000;
     font-size: 18px;
     font-weight: bold;
     padding: 14px 0;
 }
 
-.containSec{
+.containSec {
     display: inline-block;
     vertical-align: middle;
 }
 
-.containSec .containDesc{
+.containSec .containDesc {
     position: relative;
     padding-left: 61px;
     font-size: 18px;
@@ -431,16 +434,25 @@ tr:nth-child(odd) {
     transition: all 0.4s ease-in-out;
 }
 
-.containImg{
+.containImg {
     position: absolute;
     left: 0;
     top: -10px;
 }
 
-.containSec img{
+.containSec img {
     width: 42px;
     height: 42px;
 }
+
+.productDetails,
+.productTable .productTitle,
+.tableCat .catName,
+.containSec {
+    padding-left: 65px;
+}
+
+/* product-details css end */
 
 
 
@@ -470,6 +482,7 @@ tr:nth-child(odd) {
         margin-top: -110px;
         margin-right: 13px;
     }
+
 }
 
 @media only screen and (max-width: 1366px) {
@@ -550,6 +563,37 @@ tr:nth-child(odd) {
         margin-top: -100px;
         margin-right: -91px;
     }
+
+    /* product-details resposive start */
+    .cartButton .btn .icon {
+        padding: 0 6px;
+    }
+
+    .commonTitle {
+        width: 100%;
+    }
+
+    .tableCat .catName,
+    .tableCat .catPrice {
+        width: 50%;
+    }
+
+    .productDetails,
+    .productTable .productTitle,
+    .tableCat .catName,
+    .containSec {
+        padding-left: 45px;
+    }
+
+    .quantityBox .qtyplus {
+        height: 40%;
+    }
+
+    .quantityBox .qtyminus {
+        height: 40%;
+    }
+
+    /* product-details resposive  end*/
 }
 
 @media only screen and (max-width: 991px) {
@@ -627,6 +671,84 @@ tr:nth-child(odd) {
         margin-top: -70px;
         margin-right: -68px;
     }
+
+
+    /* product-details resposive  start*/
+    .productDetailsCol:last-child {
+        width: 68%;
+    }
+
+    .productsBox {
+        padding: 0 7px;
+    }
+
+    .caloriesCricle {
+        height: 90px;
+        width: 90px;
+    }
+
+    .caloriesCricle span {
+        font-size: 28px;
+    }
+
+    .productDetails .productName .productTitle,
+    .productTable .productTitle {
+        font-size: 22px;
+    }
+
+    .productDetails .productName .productTitle {
+        padding-bottom: 20px;
+    }
+
+    .productDetails .productName .productDesc {
+        font-size: 16px;
+    }
+
+    .productDetails,
+    .productTable .productTitle,
+    .tableCat .catName,
+    .containSec {
+        padding-left: 22px;
+    }
+
+    .productDetails .quantityBox {
+        height: 70px;
+    }
+
+    .tableCat .catName,
+    .tableCat .catPrice {
+        width: 60%;
+    }
+
+    .catName,
+    .catPrice {
+        font-size: 16px;
+    }
+
+    .productDetails .quantityBox #quantityField {
+        padding-left: 25px;
+    }
+
+    .productDetails .quantityBox .qtyplus {
+        left: 45px;
+    }
+
+    .productDetails .quantityBox .qtyminus {
+        left: 45px;
+        top: 10px;
+    }
+
+    .cartButton .btn .icon {
+        font-size: 22px;
+    }
+
+    .cartButton .btn {
+        padding: 22px 6px;
+        min-width: 155px;
+        font-size: 12px;
+    }
+
+    /* product-details resposive  end*/
 
 }
 
@@ -735,6 +857,12 @@ tr:nth-child(odd) {
     .sendButton .btn {
         padding: 25px;
     }
+
+    /* product-details resposive  start*/
+    .productDetailsCol:last-child{
+        width: 100%;
+    }
+    /* product-details resposive  end*/
 }
 
 

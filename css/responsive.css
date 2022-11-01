@@ -235,6 +235,12 @@ p{font-size: 16px;}
 
 /*---404 Page---*/
 
+/*---menu-page---*/
+.menuproductdetail{padding: 15px 15px;}
+.productsboxmain.menuproductsbox .productsbox{width: 33.33%;}
+
+/*---menu-page---*/
+
 
 }
 
@@ -346,6 +352,12 @@ visibility: visible!important; transition: none!important;}
 .footer-main .row{align-items: center;}
 /*---footer---*/
 
+/*---menu-page---*/
+
+.productsboxmain.menuproductsbox .productsbox{width: 50%;}
+
+/*---menu-page---*/
+
 }
 
 
@@ -365,7 +377,7 @@ p{font-size: 14px;margin-bottom: 15px;}
 /*.btn{font-size: 14px;padding: 18px 15px; font-weight: 700;min-width: 150px;}*/
 .secTitle{font-size: 30px;}
 .commonSec{padding-top: 30px;padding-bottom: 30px;}
-
+body.sticky_header {padding-top: 74px;}
 
 
 /*---header---*/
@@ -396,13 +408,13 @@ p{font-size: 14px;margin-bottom: 15px;}
 .productsbox{width: 33.33%;}
 .mobFilter{display: block;}
 .sidebarTitle{display: none;}
-.mobFilter{text-align: center;margin-bottom: 20px;}
+.mobFilter{text-align: center;margin-bottom: 25px;}
 .mobFilter .mon_filtCol span {display: inline-block; vertical-align: middle; line-height: 1;}
 .mobFilter .mob_filter.mon_filtCol {border: 2px solid #eaeaea;border-radius: 24px;font-size: 16px;font-weight: 700; padding: 10px 22px;display: inline-block;}
-#sidebar.filtersidebar{position: fixed; padding-right: 0; left: -100vw; top: 0; bottom: 0; background: #fff; width: 100vw; z-index: 999; transition: all 0.4s ease-in-out; padding-top: 50px; overflow: auto;}
+#sidebar.filtersidebar{position: fixed !important;height: inherit !important; padding-right: 0; left: -100vw; top: 0; bottom: 0; background: #fff; width: 100vw; z-index: 999; transition: all 0.4s ease-in-out; padding-top: 50px; overflow: auto;}
 .mobFilter .mob_filter.mon_filtCol .icon{position: relative;top: 3px; margin-right: 8px;}
 #sidebar.filtersidebar.openFilter{left: 0;}
-#sidebar.filtersidebar .sidebarTitle{width: 100vw; background: #09aa6e; padding: 12px 15px; position: relative; color: #fff; line-height: 1.6; height: auto; position: absolute;    top: 0;
+#sidebar.filtersidebar .sidebarTitle{width: 100vw; background: #09aa6e; padding: 12px 15px; position: fixed; color: #fff; line-height: 1.6; height: auto;top: 0;
 z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;font-size: 16px;}
 #sidebar.filtersidebar.openFilter .sidebarTitle {position: fixed; top: 0; left: 0; z-index: 999;}
 #sidebar.filtersidebar .sidebarTitle:after {content: ""; width: 16px; height: 2px; background: #fff; position: absolute; right: 15px; transform: rotate(-45deg); margin: auto; top: 0; bottom: 0;}
@@ -452,6 +464,12 @@ z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;fo
 
 /*---thank-you---*/
 
+/*---menu-page---*/
+
+.productsboxmain.menuproductsbox .productsbox{width: 33.33%;}
+
+/*---menu-page---*/
+
 }
 
 
@@ -461,7 +479,7 @@ z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;fo
 @media only screen and (max-width: 568px) {
 
 .commonSec{padding-top: 30px;padding-bottom: 30px;}
-
+body.sticky_header {padding-top: 64px;}
 /*---header---*/
 .headerMain .siteLogo img{width: 150px;}
 .headerMain .m_menuLogo .menuLogo{max-width: 80%;}
@@ -509,6 +527,12 @@ z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;fo
 /*---footer---*/
 
 /*---footer---*/
+
+/*---menu-page---*/
+
+.productsboxmain.menuproductsbox .productsbox{width: 50%;}
+
+/*---menu-page---*/
 
 
 }
