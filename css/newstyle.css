@@ -402,20 +402,14 @@
     margin: 30px 0 90px;
 }
 
-tr:nth-child(odd) {
+.mainTableBox tr:nth-child(odd) {
     background-color: #eeeeee;
 }
+.mainTableBox tr td:nth-child(even){width:58%;}
+.mainTableBox tr td:nth-child(odd){width:42%;}
 
-.tableCat .catName {
-    width: 44%;
-}
 
-.tableCat .catPrice {
-    width: 56%;
-}
-
-.catName,
-.catPrice {
+.mainTableBox tr,.mainTableBox td{
     color: #000;
     font-size: 18px;
     font-weight: bold;
@@ -430,29 +424,28 @@ tr:nth-child(odd) {
 .containSec .containDesc {
     position: relative;
     padding-left: 61px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     color: #000;
     transition: all 0.4s ease-in-out;
+    line-height: 1.4;
 }
 
 .containImg {
     position: absolute;
     left: 0;
     top: -10px;
-}
-
-.containSec img {
-    width: 42px;
-    height: 42px;
+    max-width: 42px;
+    max-height: 42px;
 }
 
 .productDetails,
 .productTable .productTitle,
-.tableCat .catName,
+.mainTableBox td,
 .containSec {
     padding-left: 65px;
 }
+
 
 /* product-details css end */
 
@@ -582,7 +575,7 @@ tr:nth-child(odd) {
 
     .productDetails,
     .productTable .productTitle,
-    .tableCat .catName,
+    .mainTableBox td,
     .containSec {
         padding-left: 45px;
     }
@@ -708,7 +701,7 @@ tr:nth-child(odd) {
 
     .productDetails,
     .productTable .productTitle,
-    .tableCat .catName,
+    .mainTableBox td,
     .containSec {
         padding-left: 22px;
     }
