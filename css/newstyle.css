@@ -243,6 +243,7 @@
 
 .productCaloriesBox {
     position: relative;
+    width: 100%;
 }
 
 .caloriesCricle {
@@ -273,10 +274,6 @@
 .caloriesCricle small {
     font-weight: 600;
     font-size: 18px;
-}
-
-.productCaloriesBox {
-    width: 100%;
 }
 
 .productsBox {
@@ -602,6 +599,10 @@
 
     .productsBox {
         padding: 0 7px;
+    }
+
+    .productBoxMain {
+        margin: 0 -7px;
     }
 
     .caloriesCricle {
