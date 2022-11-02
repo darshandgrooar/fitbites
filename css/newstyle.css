@@ -247,19 +247,19 @@
 
 .caloriesCricle {
     position: absolute;
-    top: -50px;
-    right: 0;
+    top: -60px;
+    right: -50px;
     left: inherit;
     bottom: 0;
-    height: 100px;
-    width: 100px;
+    height: 115px;
+    width: 115px;
     background-color: #09aa6e;
     border-radius: 50%;
     text-align: center;
     color: #fff;
     line-height: 1;
     font-family: 'Poppins', sans-serif;
-    padding: 20px 0;
+    padding: 30px 0;
     z-index: 99;
 
 }
@@ -275,14 +275,13 @@
     font-size: 18px;
 }
 
-.productCaloriesBox{
+.productCaloriesBox {
     width: 100%;
 }
 
 .productsBox {
-    width: 50%;
     padding: 0 12px;
-} 
+}
 
 .productsBoxImg {
     position: relative;
@@ -305,8 +304,9 @@
     object-position: center;
 }
 
-.productDetailsCol:last-child {
-    width: 74%;
+
+.productBoxMain {
+    margin: 0 -12px;
 }
 
 .productDetails {
@@ -318,7 +318,7 @@
 
 .productDetails .quantityBox {
     width: 254px;
-    height: 75px;
+    height: 82px;
     border-radius: 50px;
     border: 4px solid #eaeaea;
 }
@@ -373,12 +373,12 @@
     background-color: #09aa6e;
     color: #fff;
     font-size: 17px;
-    padding: 23px 20px;
+    padding: 26px 30px;
 }
 
 .cartButton .btn .icon {
     font-size: 26px;
-    padding: 0 20px;
+    padding-left: 20px;
 }
 
 .btn .btn-white-outline:hover {
@@ -405,11 +405,11 @@
 }
 
 .mainTableBox tr td:nth-child(even) {
-    width: 58%;
+    width: 64%;
 }
 
 .mainTableBox tr td:nth-child(odd) {
-    width: 42%;
+    width: 36%;
 }
 
 
@@ -484,6 +484,10 @@
         margin-right: 13px;
     }
 
+    .productlistcol:last-child {
+        width: 70%;
+    }
+
 }
 
 @media only screen and (max-width: 1366px) {
@@ -504,6 +508,10 @@
         margin-top: -114px;
         margin-right: -75px;
         z-index: 99;
+    }
+
+    .productlistcol:last-child {
+        width: 72%;
     }
 
 }
@@ -566,12 +574,71 @@
     }
 
     /* product-details resposive start */
+    .productDetailSec {
+        padding-bottom: 40px;
+    }
+
+    .productDetailSec .secHead {
+        margin-bottom: 30px;
+    }
+
+    .productsBox {
+        padding: 0 7px;
+    }
+
+    .caloriesCricle {
+        right: -44px;
+        height: 100px;
+        width: 100px;
+        padding: 27px 0;
+    }
+
+    .caloriesCricle span {
+        font-size: 26px;
+    }
+
+    .caloriesCricle small {
+        font-size: 16px;
+    }
+
+    .cartButton {
+        margin-left: -119px;
+    }
+
+    .cartButton .btn {
+        font-size: 0;
+        min-width: 138px;
+        padding: 23px 30px;
+    }
+
+    .productDetails .quantityBox {
+        height: 75px;
+    }
+
+    .productDetails .quantityBox #quantityField {
+        padding-left: 22px;
+    }
+
+    .productDetails .quantityBox .qtyminus,
+    .productDetails .quantityBox .qtyplus {
+        left: 80px;
+    }
+
     .cartButton .btn .icon {
         padding: 0 6px;
     }
 
     .commonTitle {
         width: 100%;
+    }
+
+    .productDetails {
+        padding: 30px 0;
+    }
+
+    .productDetails .productName .productTitle,
+    .productTable .productTitle {
+        font-size: 28px;
     }
 
     .tableCat .catName,
@@ -593,6 +660,16 @@
     .quantityBox .qtyminus {
         height: 40%;
     }
+
+    .mainTableBox tr td:nth-child(odd),
+    .mainTableBox tr td:nth-child(even) {
+        width: 50%;
+    }
+
+    .tableCat {
+        margin: 30px 0 40px;
+    }
+
 
 
     /* product-details resposive  end*/
@@ -676,7 +753,7 @@
 
 
     /* product-details resposive  start*/
-    .productDetailsCol:last-child {
+    .productDetailSec .productlistcol:last-child {
         width: 68%;
     }
 
@@ -685,17 +762,24 @@
     }
 
     .caloriesCricle {
-        height: 90px;
-        width: 90px;
+        height: 80px;
+        width: 80px;
+        right: -11px;
+        top: -50px;
+        padding: 19px 0;
     }
 
     .caloriesCricle span {
-        font-size: 28px;
+        font-size: 26px;
+    }
+
+    .caloriesCricle small {
+        font-size: 14px;
     }
 
     .productDetails .productName .productTitle,
     .productTable .productTitle {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .productDetails .productName .productTitle {
@@ -703,7 +787,7 @@
     }
 
     .productDetails .productName .productDesc {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .mainTableBox tr td:nth-child(odd) {
@@ -714,33 +798,16 @@
         width: 45%;
     }
 
-    .mainTableBox tr, .mainTableBox td {
-        font-size: 16px;
+    .mainTableBox tr,
+    .mainTableBox td {
+        font-size: 14px;
     }
 
     .productDetails,
     .productTable .productTitle,
     .mainTableBox td,
     .containSec {
-        padding-left: 22px;
-    }
-
-    .productDetails .quantityBox {
-        height: 70px;
-    }
-
-    .caloriesCricle {
-        height: 80px;
-        width: 80px;
-        top: -50px;
-    }
-
-    .caloriesCricle span {
-        font-size: 24px;
-    }
-
-    .caloriesCricle small {
-        font-size: 14px;
+        padding-left: 15px;
     }
 
     .tableCat .catName,
@@ -754,34 +821,35 @@
     }
 
     .productDetails .quantityBox #quantityField {
-        padding-left: 25px;
+        padding-left: 22px;
     }
 
-    .productDetails .quantityBox .qtyplus {
-        left: 45px;
+    .cartButton .btn{
+        min-width: 120px;
     }
 
+    .productDetails .quantityBox .qtyplus,
     .productDetails .quantityBox .qtyminus {
-        left: 45px;
-        top: 10px;
-    }
-
-    .cartButton .btn .icon {
-        font-size: 22px;
-    }
-
-    .cartButton .btn {
-        padding: 22px 6px;
-        min-width: 155px;
-        font-size: 12px;
+        left: 80px;
     }
 
     .containSec .containDesc {
         font-size: 18px;
+        padding-left: 48px;
     }
 
-    .cartButton {
-        margin-left: -152px;
+    .productDetails .quantityBox {
+        height: 70px;
+    }
+
+    .cartButton .btn {
+        padding: 21px 30px;
+    }
+
+    .containImg {
+        max-width: 30px;
+        max-height: 30px;
+        top: -4px;
     }
 
     /* product-details resposive  end*/
@@ -895,46 +963,50 @@
     }
 
     /* product-details resposive  start*/
-    .productDetailSec .secHead {
-        margin-bottom: 30px;
+    .productDetailSec {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
-    .productDetailsCol:last-child {
+    .productDetailSec .productlistcol:last-child {
         width: 100%;
     }
-    
+
     .caloriesCricle {
-        top: -40px;
-    }
-
-    .productDetails {
-        padding: 30px 22px;
-    }
-
-    .cartButton .btn {
-        font-size: 14px;
-        min-width: 175px;
-    }
-
-    .productDetails .quantityBox #quantityField {
-        padding-left: 32px;
-    }
-
-    .productDetails .quantityBox .qtyminus,
-    .productDetails .quantityBox .qtyplus {
-        left: 60px;
+        right: -27px;
     }
 
     .tableCat {
         margin: 30px 0 50px;
     }
 
-    .productDetailSec {
-        padding-bottom: 60px;
+    .mainTableBox tr td:nth-child(odd),
+    .mainTableBox tr td:nth-child(even) {
+        width: 50%;
     }
 
-    .mainTableBox tr,
-    .mainTableBox td {
+    .productDetails .quantityBox {
+        width: 224px;
+        height: 65px;
+    }
+
+    .productDetails .quantityBox .qtyplus {
+        bottom: 10px;
+    }
+
+    .cartButton .btn {
+        padding: 18px 30px;
+        min-width: 120px;
+    }
+
+    .containImg {
+        max-width: 20px;
+        max-height: 20px;
+        top: 0px;
+    }
+
+    .containSec .containDesc {
+        padding-left: 33px;
         font-size: 16px;
     }
 
@@ -999,50 +1071,6 @@
     .contactDetails {
         padding-top: 20px;
     }
-
-    /* product details responsive start */
-    .productDetails .productName .productDesc {
-        max-width: 100%;
-    }
-
-    .productName {
-        width: 100%;
-    }
-
-    .addCartMain {
-        width: 60%;
-        padding-top: 20px;
-    }
-
-    .mainTableBox tr td:nth-child(odd),
-    .mainTableBox tr td:nth-child(even) {
-        width: 50%;
-    }
-
-    .containSec .containDesc {
-        font-size: 20px;
-    }
-
-    .productsBox{
-        width: 100%;
-    }
-
-    .containSec .containDesc{
-        padding-left: 48px;
-    }
-
-    .containImg{
-        max-width: 30px;
-        max-height: 30px;
-        top: -1px;
-    }
-
-    .productDetailsCol {
-        padding: 0 10px;
-    }
-
-    /* product details responsive end */
-
 }
 
 
@@ -1063,7 +1091,7 @@
     }
 
 
- /* product details responsive start */
+    /* product details responsive start */
     .caloriesCricle {
         height: 70px;
         width: 70px;
@@ -1090,7 +1118,8 @@
         margin: 30px 0;
     }
 
-    .mainTableBox tr, .mainTableBox td {
+    .mainTableBox tr,
+    .mainTableBox td {
         font-size: 14px;
     }
 
@@ -1113,15 +1142,18 @@
         width: 60%;
     }
 
-    .mainTableBox tr td:nth-child(even){
+    .mainTableBox tr td:nth-child(even) {
         width: 40%;
     }
 
-    .productDetails, .productTable .productTitle, .mainTableBox td, .containSec {
+    .productDetails,
+    .productTable .productTitle,
+    .mainTableBox td,
+    .containSec {
         padding-left: 14px;
     }
 
-     /* product details responsive end */
+    /* product details responsive end */
 
 }
 
