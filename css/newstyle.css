@@ -326,13 +326,13 @@
 .productDetails .quantityBox .qtyplus {
     bottom: 14px;
     right: inherit;
-    left: 70px;
+    left: 85px;
 }
 
 .productDetails .quantityBox .qtyminus {
     top: 10px;
     right: inherit;
-    left: 70px;
+    left: 85px;
 }
 
 .productDetails .productName .productTitle {
@@ -366,7 +366,7 @@
 }
 
 .cartButton {
-    margin-left: -140px;
+    margin-left: -120px;
 }
 
 .cartButton .btn {
@@ -602,7 +602,7 @@
     }
 
     .cartButton {
-        margin-left: -119px;
+        margin-left: -124px;
     }
 
     .cartButton .btn {
@@ -616,7 +616,7 @@
     }
 
     .productDetails .quantityBox #quantityField {
-        padding-left: 22px;
+        padding-left: 26px;
     }
 
     .productDetails .quantityBox .qtyminus,
@@ -820,12 +820,8 @@
         font-size: 16px;
     }
 
-    .productDetails .quantityBox #quantityField {
-        padding-left: 22px;
-    }
-
     .cartButton .btn {
-        min-width: 120px;
+        min-width: 123px;
     }
 
     .productDetails .quantityBox .qtyplus,
@@ -1010,7 +1006,6 @@
 
     .cartButton .btn {
         padding: 18px 30px;
-        min-width: 120px;
     }
 
     .containImg {
