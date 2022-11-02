@@ -327,12 +327,14 @@
     bottom: 14px;
     right: inherit;
     left: 85px;
+    width: 46px;
 }
 
 .productDetails .quantityBox .qtyminus {
     top: 10px;
     right: inherit;
     left: 85px;
+    width: 46px;
 }
 
 .productDetails .productName .productTitle {
@@ -370,7 +372,7 @@
 }
 
 .cartButton .btn {
-    background-color: #09aa6e;
+    transform: none;
     color: #fff;
     font-size: 17px;
     padding: 26px 30px;
@@ -483,9 +485,25 @@
         margin-top: -110px;
         margin-right: 13px;
     }
+ 
+    .productDetails, .productTable .productTitle, .mainTableBox td, .containSec {
+        padding-left: 20px;
+    }
 
-    .productlistcol:last-child {
-        width: 70%;
+    .productDetails{
+        padding: 40px 0;
+    }
+
+    .tableCat{
+        margin: 30px 0 60px;
+    }
+
+    .productDetailSec {
+        padding-bottom: 60px;
+    }
+
+    .caloriesCricle{
+        right: -9px;
     }
 
 }
@@ -606,7 +624,7 @@
     }
 
     .cartButton .btn {
-        font-size: 0;
+        font-size: 14px;
         min-width: 122px;
         padding: 23px 30px;
     }
@@ -616,7 +634,7 @@
     }
 
     .productDetails .quantityBox #quantityField {
-        padding-left: 26px;
+        padding-left: 36px;
     }
 
     .productDetails .quantityBox .qtyminus,
@@ -633,12 +651,12 @@
     }
 
     .productDetails {
-        padding: 30px 0;
+        padding: 20px 0;
     }
 
     .productDetails .productName .productTitle,
     .productTable .productTitle {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .tableCat .catName,
@@ -650,7 +668,7 @@
     .productTable .productTitle,
     .mainTableBox td,
     .containSec {
-        padding-left: 45px;
+        padding-left: 30px;
     }
 
     .quantityBox .qtyplus {
@@ -757,6 +775,10 @@
         width: 68%;
     }
 
+    .productlistrow{
+        margin: 0 -7px;
+    }
+
     .productsBox {
         padding: 0 7px;
     }
@@ -820,13 +842,21 @@
         font-size: 16px;
     }
 
+    .cartButton {
+        margin-left: -80px;
+    }
+
     .cartButton .btn {
-        min-width: 123px;
+        min-width: 95px;
     }
 
     .productDetails .quantityBox .qtyplus,
     .productDetails .quantityBox .qtyminus {
-        left: 80px;
+        left: 70px;
+    }
+
+    .productDetails .quantityBox .qtyplus{
+        bottom: 8px;
     }
 
     .containSec .containDesc {
@@ -835,17 +865,23 @@
     }
 
     .productDetails .quantityBox {
-        height: 70px;
+        height: 65px;
+        width: 195px;
     }
 
     .cartButton .btn {
-        padding: 21px 30px;
+        padding: 18px 30px;
+        font-size: 0;
     }
 
     .containImg {
         max-width: 30px;
         max-height: 30px;
         top: -4px;
+    }
+
+    .productDetails .quantityBox #quantityField {
+        padding-left: 27px;
     }
 
     /* product-details resposive  end*/
@@ -995,17 +1031,12 @@
         width: 50%;
     }
 
-    .productDetails .quantityBox {
-        width: 224px;
-        height: 65px;
-    }
-
     .productDetails .quantityBox .qtyplus {
         bottom: 10px;
     }
 
     .cartButton .btn {
-        padding: 18px 30px;
+        padding: 18px 30px;  
     }
 
     .containImg {
@@ -1154,7 +1185,7 @@
     .productTable .productTitle,
     .mainTableBox td,
     .containSec {
-        padding-left: 14px;
+        padding-left: 0;
     }
 
     .productName {
@@ -1168,6 +1199,10 @@
 
     .tableCat {
         margin: 0 0 20px;
+    }
+
+    .productDetailSec tr td{
+        padding: 10px 15px;
     }
 
     /* product details responsive end */
