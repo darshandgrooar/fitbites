@@ -13,6 +13,7 @@
     margin: 0 240px auto;
 }
 
+.faqsMain .accordion-body{padding: 0;}
 .faqsmain .accordion-item {
     background: #fff;
     margin-bottom: 35px;
@@ -91,7 +92,7 @@
 /* touch-sec css */
 .getTouchSec {
     position: relative;
-    margin-top: 110px;
+    margin-top: 85px;
 }
 
 .getTouchSec::before {
@@ -117,24 +118,24 @@
 
 .getTouchDesc .secTitle {
     padding-bottom: 30px;
-    max-width: 400px;
 }
 
 .getTouchDesc .secHead {
     margin-bottom: 142px;
+    max-width: 80%;
 }
 
 .getTouchDesc p {
     max-width: 650px;
 }
 
-.commonGetTouch a {
+.commonGetTouch .contactcall {
     color: #000;
     font-size: 30px;
     font-weight: bold;
 }
 
-.commonGetTouch a:hover {
+.commonGetTouch .contactcall:hover {
     color: #09aa6e;
     transition: all 0.4s ease-in-out;
 }
@@ -157,6 +158,7 @@
 .getTouchForm {
     width: 51%;
     position: relative;
+    z-index: 2;
 }
 
 .getTouchImg {
@@ -186,11 +188,31 @@
 .inputField {
     border: 3px solid #eaeaea;
     border-radius: 50px;
-    padding: 30px 55px;
+    padding: 26px 55px;
     width: 100%;
     font-size: 17px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    height: 82px;
+    resize: none;
+}
+.inputField.inputmassField{height: 82px;padding-top: 26px;}
+.inputField.inputmassField::-webkit-scrollbar {
+    width: 4px;
+    height: 4px
+}
+.inputField.inputmassField::-webkit-scrollbar-track {
+    background: 0 0;
+    border-radius: 50px
+}
+.inputField.inputmassField::-webkit-scrollbar-thumb {
+    background: 0 0;
+    border-radius: 50px
+}
+.inputField.inputmassField:hover::-webkit-scrollbar-track {
+    background: #f0f0f0
+}
+.inputField.inputmassField:hover::-webkit-scrollbar-thumb {
+    background: #09aa6e
 }
 
 .inputField::placeholder {
@@ -203,13 +225,14 @@
 
 .contactButton .btn,
 .sendButton .btn {
-    font-size: 14px;
     background-color: #09aa6e;
     border: none;
     color: #fff;
-    padding: 30px;
     border-radius: 50px;
+    padding: 32px 20px;
 }
+.contactButton .btn{min-width: 206px;}
+.sendButton .btn{min-width: 152px;}
 
 .contactButton .btn:hover,
 .sendButton .btn:hover {
@@ -272,8 +295,10 @@
 
 @media only screen and (max-width: 1199px) {
     .faqsMain {
-        margin: 0px 120px auto;
+        margin: 0px 60px auto;
     }
+    .faqsMain .accordion-item .accordion-header .accordion-button{font-size: 16px;}
+    .accordion-item .cmsCon p{font-size: 16px;}
 
     .getTouchSec{
         margin-top: 70px;
@@ -288,7 +313,7 @@
         font-size: 50px;
         padding-bottom: 20px;
     }
-
+    .faqSec .secHead{margin-bottom: 50px;}
     .getTouchSec::before {
         display: none;
     }
@@ -311,7 +336,7 @@
     }
 
     .contactDetails {
-        padding-top: 120px;
+        padding-top: 70px;
     }
 
     .formDetails{
@@ -338,16 +363,19 @@
     }
 
     .faqsMain .accordion-item .accordion-header .accordion-button {
-        padding: 12px 35px 15px 15px;
-        padding-right: 70px;
+        padding: 14px 35px 15px 15px;
+        padding-right: 65px;
     }
 
     .accordion-button::after {
         right: 20px;
+        background-size: 26px;
+        width: 26px;height: 26px;
     }
+    .faqSec{padding: 50px 0;}
 
     .accordion-body .cmsCon {
-        padding: 30px 10px 0;
+        padding: 30px 15px 0;
     }
 
     .getTouchSec {
@@ -367,13 +395,8 @@
         max-width: 310px;
     }
 
-    .commonGetTouch a {
+    .commonGetTouch .contactcall {
         font-size: 24px;
-    }
-
-
-    .commonDesc {
-        font-size: 13px;
     }
 
     .contactDetails {
@@ -389,20 +412,26 @@
         max-width: 400px;
     }
 
-    .formTitle,
-    .inputField {
-        padding-left: 20px;
+    .formTitle {
+        padding-left: 35px;
+        padding-bottom: 20px;
     }
 
     .inputField {
         font-size: 14px;
         padding: 15px 50px;
+        height: 60px;
     }
+    .inputField.inputmassField{height: 60px;padding-top: 19px;}
 
     .burgerImg {
         margin-top: -70px;
         margin-right: -68px;
     }
+    .contactButton .btn, .sendButton .btn{padding: 24px 18px;font-size: 15px;}
+    .contactButton .btn{min-width: 180px;}
+    .sendButton .btn{min-width: 130px;}
+    .getTouchDesc{padding-top: 50px;}
 
 }
 
@@ -414,6 +443,9 @@
     .faqsMain .accordion-item .accordion-header .accordion-button {
         font-size: 14px;
     }
+    .faqSec{padding: 30px 0;}
+    .accordion-item{margin-bottom: 20px;}
+    .faqSec .secHead{margin-bottom: 30px;}
 
     .accordion-button::after {
         background-size: 26px;
@@ -423,7 +455,7 @@
     }
 
     .accordion-body .cmsCon {
-        padding: 20px 10px 0;
+        padding: 20px 15px 0;
     }
 
     .accordion-item .cmsCon p {
@@ -458,16 +490,14 @@
 
     .getTouchForm {
         width: 100%;
-        padding: 35px 45px 0;
+        padding: 35px 35px 0;
     }
-
-    .inputField {
-        padding: 17px;
-    }
+    .inputField{padding: 15px 35px;}
 
     .contactInfo p {
         padding: 15px 0;
     }
+
 
     .getTouchImg {
         top: -15px;
@@ -493,11 +523,13 @@
     }
 
     .getTouchDesc .secHead{
-        width: 100%;
+        max-width: 100%;
     }
+    .getTouchDesc .secTitle br{display: none;}
+    .getTouchDesc{padding-top: 0;}
 
     .secEmail {
-        width: 40%;
+        width: 50%;
     }
 
     .contactDetails {
@@ -521,7 +553,7 @@
 
     .faqsMain .accordion-item .accordion-header .accordion-button {
         padding: 17px 35px 13px 10px;
-        padding-right: 60px;
+        padding-right: 45px;
     }
 
     .accordion-button::after {
@@ -538,10 +570,6 @@
 
     .contactDetails{
         width: 100%;
-    }
-
-    .contactMain {
-        padding-right: 27px;
     }
 
     .getTouchDesc .secHead {
@@ -597,4 +625,9 @@
     .burgerImg{
         margin-left: 25px;
     }
+    
+}
+@media only screen and (max-width: 320px) {
+.formTitle{padding-left: 0;text-align: center;}
+    .burgerImg{width: 315px;margin-top: -53px;}
 }

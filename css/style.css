@@ -128,7 +128,7 @@ transition: all 0.4s ease-in-out !important;}
 .headerMain .siteLogo img{display: block; width: 206px; }
 .m_menuLogo { display: none;}
 
-.headMenu{padding: 22px 56px;padding-left: 88px; background: #fff;}
+.headMenu{padding: 22px 56px;padding-left: 88px;}
 /* Navigation */
 .menuIcon {display: none;width: 32px; height: 32px; position: relative; padding:0px; margin-top:0px; margin-left: 25px; color: #000;}
 .menuIcon span {display: block; width: 20px; position: absolute; top: 0; bottom: 0; right: 0; height: 2px; background: #000;margin: auto;}
@@ -348,6 +348,8 @@ object-fit: cover;object-position: center;-webkit-transition-duration: 2s;-moz-t
 .aboutgrabgoSec{background: #eeeeee;padding-left: 122px;padding-top: 158px;position: relative;z-index: 2;}
 .aboutgrabgoSec:before{position: absolute;content: "";background: url(../img/aboutgrabgobanner.jpg) no-repeat; width: 51%;height: 100%;top: 0;right: 0;bottom: 0; z-index: -1;
 background-size: cover;}
+.aboutgreenSec:before{position: absolute;content: "";background: url(../img/aboutgrabgobanner-green.jpg) no-repeat; width: 51%;height: 100%;top: 0;right: 0;bottom: 0; z-index: -1;
+background-size: cover;}
 .aboutgrabgorow{display: flex;flex-wrap: wrap;margin: 0 -15px;}
 .aboutgrabgocol{padding: 0 15px;}
 .aboutgrabgocol:last-child{width: 36%;}
@@ -359,7 +361,7 @@ background-size: cover;}
 /*---home-page---*/
 
 /*---footer---*/
-.footersec{padding-top: 120px;padding-bottom: 60px;position: relative;z-index: 3;border-top: 1px solid #eaeaea;}
+.footersec{padding-top: 120px;padding-bottom: 60px;position: relative;z-index: 3;}
 .logoSection{padding-left: 32px;}
 .footerLogo{max-width: 209px;margin-bottom: 37px;}
 .footerDesc{max-width: 90%;}
@@ -446,5 +448,20 @@ margin-bottom: 20px;}
 .productsboxmain.menuproductsbox{margin: 0 -8px;}
 .productsboxmain.menuproductsbox .productsbox{padding: 0 8px; margin-bottom: 16px;width: 25%;}
 .productlistMian.menuproductlistMian .productmenulist li:last-child{margin-bottom: 0;}
-
+.page-template-menu-template .footersec{border-top: 0;}
 /*---menu-page---*/
+
+/*---about-us---*/
+.page-template-about-us-template .headerMain{display: block;width: 100%;position: absolute;left: 0;top: 0;right: 0; z-index: 999;}
+.aboutbannerSec{position: relative;z-index: 2;min-height: 100vh;border-bottom: 1px solid #eaeaea;}
+.aboutbannerimg{position: absolute;right: 0;top: 0;bottom: 0;width: 100%;height: 100%;z-index: -1;}
+.aboutbannerimg img{width: 100%;height: 100%; object-fit: cover;object-position: top right;}
+.aboutbannerSec .secHead{padding-top: calc(100vh - 34%);padding-bottom: 50px;margin-bottom: 0;}
+.aboutbannerSec .secHead .dec{max-width: 46%;}
+
+.whatwedoSec{}
+.whatwedoHead{margin-bottom: 50px;}
+.whatwedoTitle{font-size: 30px;font-weight: 700;color: #000;line-height: 1.2;margin-bottom: 35px;}
+.whatwedoHead p{font-size: 22px;font-weight: 500;color: #000;line-height: 1.2;}
+/*---about-us---*/
+
