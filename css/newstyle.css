@@ -37,7 +37,7 @@
     color: #000;
     font-size: 18px;
     line-height: 1.2;
-    font-weight: bold;
+    font-weight: 700;
     position: relative;
     cursor: pointer;
     background-color: #eeeeee;
@@ -131,7 +131,7 @@
 .commonGetTouch a {
     color: #000;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .commonGetTouch a:hover {
@@ -175,7 +175,7 @@
 .formTitle {
     font-size: 30px;
     color: #000;
-    font-weight: bold;
+    font-weight: 700;
     padding-bottom: 28px;
 }
 
@@ -189,7 +189,7 @@
     padding: 30px 55px;
     width: 100%;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -267,7 +267,7 @@
 .caloriesCricle span {
     display: block;
     font-size: 33px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .caloriesCricle small {
@@ -337,7 +337,7 @@
 
 .productDetails .productName .productTitle {
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1;
     font-family: 'Poppins', sans-serif;
     color: #000;
@@ -392,7 +392,7 @@
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
     color: #000;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .tableCat {
@@ -417,7 +417,7 @@
 .mainTableBox td {
     color: #000;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 14px 0;
 }
 
@@ -607,7 +607,7 @@
 
     .cartButton .btn {
         font-size: 0;
-        min-width: 138px;
+        min-width: 122px;
         padding: 23px 30px;
     }
 
@@ -824,7 +824,7 @@
         padding-left: 22px;
     }
 
-    .cartButton .btn{
+    .cartButton .btn {
         min-width: 120px;
     }
 
@@ -964,6 +964,10 @@
 
     /* product-details resposive  start*/
     .productDetailSec {
+        padding-bottom: 30px;
+    }
+
+    .productDetailSec {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -972,12 +976,22 @@
         width: 100%;
     }
 
+    .caloriesCricle span {
+        font-size: 22px;
+    }
+
     .caloriesCricle {
-        right: -27px;
+        right: -23px;
+    }
+
+    .caloriesCricle {
+        height: 75px;
+        width: 75px;
+        padding: 16px 0;
     }
 
     .tableCat {
-        margin: 30px 0 50px;
+        margin: 30px 0 35px;
     }
 
     .mainTableBox tr td:nth-child(odd),
@@ -1008,6 +1022,11 @@
     .containSec .containDesc {
         padding-left: 33px;
         font-size: 16px;
+    }
+
+    .productDetails .quantityBox .qtyplus,
+    .productDetails .quantityBox .qtyminus {
+        left: 65px;
     }
 
     /* product-details resposive  end*/
@@ -1096,6 +1115,7 @@
         height: 70px;
         width: 70px;
         top: -37px;
+        right: -11px;
     }
 
     .caloriesCricle span {
@@ -1108,19 +1128,6 @@
 
     .addCartMain {
         width: 83%;
-    }
-
-    .productDetails .productName .productDesc {
-        font-size: 14px;
-    }
-
-    .tableCat {
-        margin: 30px 0;
-    }
-
-    .mainTableBox tr,
-    .mainTableBox td {
-        font-size: 14px;
     }
 
     .containSec .containDesc {
@@ -1136,6 +1143,8 @@
 
     .productDetailSec {
         padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .mainTableBox tr td:nth-child(odd) {
@@ -1153,6 +1162,19 @@
         padding-left: 14px;
     }
 
+    .productName {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .productDetails .productName .productTitle {
+        padding-bottom: 15px;
+    }
+
+    .tableCat {
+        margin: 0 0 20px;
+    }
+
     /* product details responsive end */
 
 }
@@ -1162,17 +1184,8 @@
         margin-left: 25px;
     }
 
-    /* product details start */
-
-    .addCartMain {
-        width: 88%;
-    }
-
-    /* product details end */
+   
 }
 
 @media only screen and (max-width: 350px) {
-    .addCartMain {
-        width: 105%;
-    }
 }
