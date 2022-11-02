@@ -68,7 +68,6 @@ $('.banproductslide').slick({
   dots: false,
   appendArrows: '.banproductArrows',
   arrows: true,
-  pauseOnHover: true,
   autoplay: true,
   autoplaySpeed: 2500,
   speed: 500,
@@ -90,6 +89,54 @@ $('.banproductslide').slick({
       breakpoint: 768, 
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: true,
+      }
+    }
+  ]
+});
+
+$('.whatwedoSlide').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  dots: false,
+  appendArrows: '.whatwedoArrows',
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 2500,
+  speed: 500,
+  responsive: [
+    {
+
+      breakpoint: 991, 
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+
+      }
+    },
+
+    {
+
+      breakpoint: 768, 
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: true,
+      }
+    },
+
+    {
+
+      breakpoint: 415, 
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
         dots: false,

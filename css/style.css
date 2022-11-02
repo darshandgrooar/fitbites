@@ -59,7 +59,7 @@ svg:not(:root).svgImg { overflow: visible }
 .svg-icons { display: inline-block; font-size: inherit; height: 1em; overflow: visible; vertical-align: -.125em }
 /*SVG default css*/
 img{display: block; max-width:100%; max-height:100%; width:auto; height:auto}
-p{line-height:1.2;font-size: 16px; color:#8b8b8b;font-weight:400;margin-bottom:22px;}
+p{line-height:1.2;font-size: 16px; color:#8b8b8b;font-weight:500;margin-bottom:22px;}
 p:last-child{margin-bottom:0;}
 a{color: #09aa6e;transition: all 0.4s ease-in-out;}
 a:hover{color: #000;}
@@ -237,7 +237,7 @@ transition: color 0.4s ease-in-out;margin-right:19px; font-weight: 400; overflow
 /*---banner---*/
 .bannerSec{position: relative; border-bottom: 1px solid #eaeaea;z-index: 2;max-width: 1920px;margin-left: auto;margin-right: auto;}
 .secHead{display: block;margin-bottom: 75px;}
-.secTitle{font-size: 97px;font-weight: 700;font-style: italic; line-height: 0.98;color: #000;margin-bottom: 30px;}
+.secTitle{font-size: 97px;font-weight: 700;font-style: italic;text-transform: uppercase; line-height: 0.98;color: #000;margin-bottom: 30px;}
 .secTitle span{font-weight: 900;font-style: normal;}
 .bannerrow{display: flex;flex-wrap: wrap;margin: 0 -10px;min-height: calc(100vh - 109px);}
 .bannercol{padding: 0 10px;}
@@ -460,8 +460,57 @@ margin-bottom: 20px;}
 .aboutbannerSec .secHead .dec{max-width: 46%;}
 
 .whatwedoSec{}
-.whatwedoHead{margin-bottom: 50px;}
+.whatwedoHead{margin-bottom: 135px;}
 .whatwedoTitle{font-size: 30px;font-weight: 700;color: #000;line-height: 1.2;margin-bottom: 35px;}
 .whatwedoHead p{font-size: 22px;font-weight: 500;color: #000;line-height: 1.2;}
+
+.whatwedoMian{margin: 0 -41px;}
+.whatwedoMian .whatwedoitem{padding: 0 41px}
+.whatwedoimg{position: relative;display: block;width: 100%;padding-bottom: 73%;}
+.whatwedoimg img{position: absolute;width: auto;height: auto;max-width: 100%;max-height: 100%;top: 0;left: 0;right: 0;bottom: 0;margin: auto;}
+.slickarrdotmain.bannerarrow{width: 80px; position: relative; display: block;margin: auto;margin-top: 48px;}
+
+.pillarsSec{padding-top: 85px;}
+.pillarsSec .secHead{margin-bottom: 60px;}
+.pillarsboxMian{padding: 0 38px;}
+.pillarsrow{display: grid;grid-template-columns: 32.34% 32.34% 32.34%;grid-auto-flow: row;grid-gap: 26px;}
+.pillarscol{grid-row: span 3; grid-column: span 1;}
+.pillarscol:last-child{grid-row: span 3; grid-column: span 2;}
+.pillarsbox{background: #f7f7f7;padding: 48px 28px;height: 100%;}
+.pillarsTextbox{padding-left: 100px;position: relative;}
+.pillarsTextbox .icon{position: absolute;top: 0;left: 0;bottom: 0;margin: auto; max-width: 58px;}
+.pillarsTextbox .pillarsTitle{font-size: 30px;font-weight: 700;color: #000;margin-bottom: 30px;line-height: 1.2;}
+.pillarsTextbox p{}
+
+.storesSec{padding-top: 26px;padding-bottom: 80px;padding-left: 38px;}
+.storesSec .secTitle{margin-bottom: 50px;}
+.storesrow{display: flex;flex-wrap: wrap;}
+.storescol{}
+.storescol:first-child{width: 66.8%;}
+.storescol:last-child{width: 33.2%;}
+.storesSec .secHead{max-width: 85%;margin-left: auto;margin-right: auto;}
+.storesSec .secHead .dec{max-width: 85%;}
+.storesimg{position: relative;display: block;width: 100%;padding-bottom: 59%;}
+.storesimg img{position: absolute;width: 100%;height: 100%;max-width: 100%;max-height: 100%;top: 0;left: 0;right: 0;bottom: 0;
+object-fit: cover;object-position: center;}
+
+.sustainabilityrow{display: flex;flex-wrap: wrap;}
+.sustainabilitycol:first-child{width: 40%;}
+.sustainabilitycol:last-child{width: 60%;}
+
+.commonSec.sustainabilitySec{padding-top: 105px;padding-bottom: 140px;}
+.sustainabilitySec .secHead{margin-bottom: 55px;}
+.sustaiText{margin-bottom: 52px;}
+.sustaiText .whatwedoTitle{margin-bottom: 25px;}
+.sustainabilityimg{position: relative;display: block;width: 100%; padding-bottom: 86%;}
+.sustainabilityimg img{position: absolute;width: auto;height: auto;max-width: 100%;max-height: 100%;top: 0;left: 0;right: 0;bottom: 0;
+margin: auto;}
+
+.flavorSec{position: relative; padding-top: 80px;padding-bottom: 110px;background: #fafafa;z-index: 2;}
+.flavorSec .secHead{max-width: 66%;}
+.flavorSec .secHead .secTitle{margin-bottom: 40px;}
+.flavorimg{position: absolute;right: 0;top: 0;bottom: 0;height: 100%; z-index: -1;}
+.flavorimg img{width: 100%;height: 100%;object-fit: cover;object-position: top right;}
+.locallysourcedSec .secHead{max-width: 70%;}
 /*---about-us---*/
 

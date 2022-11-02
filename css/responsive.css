@@ -63,6 +63,14 @@
 .aboutgrabgoimg{margin-top: -142px;margin-left: -10px;}
 /*---home-page---*/
 
+/*---about-us---*/
+
+.pillarsrow{grid-gap: 20px;}
+.flavorSec .secHead{max-width: 56%;}
+.aboutgreenSec .aboutgrabgoimg{max-width: 91%;margin-left: 0;}
+
+/*---about-us---*/
+
 }
 
 
@@ -90,8 +98,17 @@
 .aboutgrabgoimg{margin-top: -115px;}
 .footerDesc{max-width: 100%;}
 
-
 /*---home-page---*/
+
+/*---about-us---*/
+.pillarsTextbox{padding-left: 70px;}
+.pillarsTextbox .pillarsTitle{font-size: 20px;}
+.pillarsTextbox .icon{max-width: 45px;}
+.pillarsbox{padding: 35px 20px;}
+.pillarsTextbox .pillarsTitle{margin-bottom: 20px;}
+.pillarsrow{grid-gap: 18px;}
+.storesSec .secHead{max-width: 100%;}
+/*---about-us---*/
 
 
 }
@@ -241,6 +258,34 @@ p{font-size: 16px;}
 
 /*---menu-page---*/
 
+/*---about-us---*/
+
+.aboutbannerSec{min-height: auto;}
+.aboutbannerSec .secHead{padding-top: 225px;padding-bottom: 100px;}
+.whatwedoTitle{font-size: 20px;margin-bottom: 25px;}
+.whatwedoHead{margin-bottom: 60px;}
+.whatwedoHead p{font-size: 16px;}
+.whatwedoMian{margin: 0 -20px;}
+.whatwedoMian .whatwedoitem{padding: 0 20px;}
+.pillarsSec{padding-top: 30px;}
+.pillarsSec .secHead{margin-bottom: 40px;}
+.pillarsboxMian{padding: 0 15px;}
+.pillarsbox{padding: 25px 15px;}
+.pillarsTextbox .icon{max-width: 40px;}
+.pillarsTextbox{padding-left: 60px;}
+.pillarsTextbox .pillarsTitle{margin-bottom: 15px;}
+.storesSec .secTitle{margin-bottom: 30px;}
+.storesSec{padding-left: 15px;padding-bottom: 50px;}
+.commonSec.sustainabilitySec{padding: 50px 0;}
+.sustainabilitySec .secHead{margin-bottom: 40px;}
+.sustaiText{margin-bottom: 30px;}
+.sustaiText .whatwedoTitle{margin-bottom: 20px;}
+.locallysourcedSec .secHead{max-width: 100%;}
+.flavorSec .secHead{max-width: 65%;}
+.flavorimg{right: -95px;}
+
+/*---about-us---*/
+
 
 }
 
@@ -358,6 +403,23 @@ visibility: visible!important; transition: none!important;}
 
 /*---menu-page---*/
 
+/*---about-us---*/
+
+.aboutbannerSec .secHead{padding-top: 145px;padding-bottom: 50px;}
+.pillarsrow{grid-template-columns: 49% 49%;grid-gap: 15px;}
+.pillarscol{grid-row: span 2;grid-column: span 1;}
+.pillarscol:last-child{grid-row: span 2;grid-column: span 2;}
+.storescol:first-child{width: 50%;}
+.storescol:last-child{width: 50%;}
+.storesSec .secTitle{margin-bottom: 20px;}
+.commonSec.sustainabilitySec{padding-top: 0;}
+.sustainabilitySec .secHead{margin-bottom: 30px;}
+.flavorSec .secHead .secTitle{margin-bottom: 30px;}
+.flavorimg{right: -192px;}
+.aboutgreenSec .aboutgrabgoimg{max-width: 100%;}
+
+/*---about-us---*/
+
 }
 
 
@@ -374,7 +436,7 @@ html{font-size: 6px;}
 
 p{font-size: 14px;margin-bottom: 15px;}
 .container{max-width: 100%;}
-/*.btn{font-size: 14px;padding: 18px 15px; font-weight: 700;min-width: 150px;}*/
+.btn{font-size: 14px;padding: 20px 15px; font-weight: 700;min-width: 150px;}
 .secTitle{font-size: 30px;}
 .commonSec{padding-top: 30px;padding-bottom: 30px;}
 body.sticky_header {padding-top: 74px;}
@@ -419,7 +481,9 @@ z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;fo
 #sidebar.filtersidebar.openFilter .sidebarTitle {position: fixed; top: 0; left: 0; z-index: 999;}
 #sidebar.filtersidebar .sidebarTitle:after {content: ""; width: 16px; height: 2px; background: #fff; position: absolute; right: 15px; transform: rotate(-45deg); margin: auto; top: 0; bottom: 0;}
 #sidebar.filtersidebar .sidebarTitle:before {content: ""; width: 16px; height: 2px; background: #fff; position: absolute; right: 15px; transform: rotate(45deg); margin: auto; top: 0; bottom: 0;} 
-
+.aboutgreenSec:before{width: 45%;}
+.aboutgrabgocol:first-child{width: 58%;}
+.aboutgrabgocol:last-child{width: 42%;}
 /*---home-page---*/
 
 /*---footer---*/
@@ -469,6 +533,14 @@ z-index: 9999; left: -100vw; transition: all 0.4s ease-in-out; display: block;fo
 .productsboxmain.menuproductsbox .productsbox{width: 33.33%;}
 
 /*---menu-page---*/
+
+/*---about-us---*/
+.aboutbannerSec .secHead{padding-top: 120px;padding-bottom: 35px;}
+.whatwedoTitle{margin-bottom: 20px;}
+.whatwedoMian{margin: 0 -10px;}
+.whatwedoMian .whatwedoitem{padding: 0 10px;}
+
+/*---about-us---*/
 
 }
 
@@ -533,6 +605,33 @@ body.sticky_header {padding-top: 64px;}
 .productsboxmain.menuproductsbox .productsbox{width: 50%;}
 
 /*---menu-page---*/
+
+/*---about-us---*/
+.aboutbannerimg{position: relative;right: inherit;left: inherit;bottom: inherit;top: inherit;}
+.aboutbannerSec .secHead .dec{max-width: 100%;}
+.aboutbannerSec .secHead{padding-top: 30px;padding-bottom: 30px;}
+.whatwedoHead{margin-bottom: 30px;}
+.slickarrdotmain.bannerarrow{margin-top: 25px;}
+.pillarsrow{grid-template-columns: 100%;grid-gap: 15px;}
+.pillarscol{grid-row: span 1; grid-column: span 1;}
+.pillarscol:last-child{grid-row: span 1;grid-column: span 1;}
+.pillarsSec .secHead{margin-bottom: 30px;}
+.pillarsbox{padding: 20px 15px;}
+.pillarsTextbox .pillarsTitle{font-size: 18px;}
+.storesSec{padding-left: 0;padding-bottom: 30px;}
+.storescol:first-child{width: 100%;}
+.storescol:last-child{width: 100%;}
+.storesSec .secHead{padding-top: 30px; padding-left: 15px;padding-right: 15px;}
+.storesSec .secTitle br{display: none;}
+.sustainabilitycol:first-child{width: 100%;}
+.sustainabilitycol:last-child{width: 100%;}
+.commonSec.sustainabilitySec{padding-bottom: 10px;} 
+.flavorSec .secHead{max-width: 100%;}
+.flavorimg{position: relative;right: -15px;top: inherit;bottom: -30px;}
+.flavorSec .secHead .secTitle br{display: none;}
+.flavorSec .secHead .secTitle{margin-bottom: 20px;}
+
+/*---about-us---*/
 
 
 }

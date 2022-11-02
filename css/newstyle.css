@@ -12,6 +12,7 @@
     max-width: 1140px;
     margin: 0 240px auto;
 }
+.faqBannerimg img{margin: auto;}
 
 .faqsMain .accordion-body{padding: 0;}
 .faqsmain .accordion-item {
