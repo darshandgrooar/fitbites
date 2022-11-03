@@ -146,6 +146,27 @@ $('.whatwedoSlide').slick({
   ]
 });
 
+$('.productBoxMain').slick({
+  slidesToShow: 2,
+  slidesToScroll: 2,
+  autoplay: false,
+  dots:false,
+
+  responsive: [
+    {
+
+      breakpoint: 568, 
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        dots:true,
+        autoplay:true,
+      }
+    },
+  ]
+});
+
 
   /* Mobile filter  & shorting */
 

@@ -440,6 +440,9 @@ p{font-size: 14px;margin-bottom: 15px;}
 .secTitle{font-size: 30px;}
 .commonSec{padding-top: 30px;padding-bottom: 30px;}
 body.sticky_header {padding-top: 74px;}
+.slick-dots li.slick-active button{width: 8px;height: 8px;}
+.slick-dots li button{width: 8px;height: 8px;}
+.slick-dots li.slick-active button:before{width: 14px;height: 14px;}
 
 
 /*---header---*/

@@ -248,6 +248,235 @@
     z-index: 99;
 }
 
+/* product-details css  start*/
+.productDetailSec {
+    padding-top: 38px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 95px;
+}
+
+.productDetailSec .secHead {
+    margin-bottom: 65px;
+}
+
+.productDetailsCol {
+    padding: 0 20px;
+}
+
+.productCaloriesBox {
+    position: relative;
+    width: 100%;
+}
+
+.caloriesCricle {
+    position: absolute;
+    top: -60px;
+    right: -50px;
+    left: inherit;
+    bottom: 0;
+    height: 115px;
+    width: 115px;
+    background-color: #09aa6e;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0;
+    z-index: 99;
+
+}
+
+.caloriesCricle span {
+    display: block;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.caloriesCricle small {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.productsBox {
+    padding: 0 12px;
+}
+
+.productsBoxImg {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 83%;
+}
+
+.productsBoxImg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.productBoxMain {
+    margin: 0 -12px;
+}
+
+.productDetails {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    padding: 60px 0;
+}
+
+.productDetails .quantityBox {
+    width: 254px;
+    height: 82px;
+    border-radius: 50px;
+    border: 4px solid #eaeaea;
+}
+
+.productDetails .quantityBox .qtyplus {
+    bottom: 14px;
+    right: inherit;
+    left: 85px;
+    width: 46px;
+}
+
+.productDetails .quantityBox .qtyminus {
+    top: 10px;
+    right: inherit;
+    left: 85px;
+    width: 46px;
+}
+
+.productDetails .productName .productTitle {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    padding-bottom: 37px;
+}
+
+.productDetails .productName .productDesc {
+    font-size: 18px;
+    max-width: 400px;
+}
+
+.productName {
+    width: 50%;
+}
+
+.addCartMain {
+    display: inline-flex;
+    width: 50%;
+
+}
+
+.productDetails .quantityBox #quantityField {
+    text-align: start;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.cartButton {
+    margin-left: -120px;
+}
+
+.cartButton .btn {
+    transform: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 26px 30px;
+}
+
+.cartButton .btn .icon {
+    font-size: 26px;
+    padding-left: 20px;
+}
+
+.btn .btn-white-outline:hover {
+    background-color: #000;
+    transition: all .4s ease-in !important;
+    border: none;
+}
+
+.productTable .productTitle {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-weight: 700;
+}
+
+.tableCat {
+    width: 100%;
+    margin: 30px 0 90px;
+}
+
+.mainTableBox tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+
+.mainTableBox tr td:nth-child(even) {
+    width: 64%;
+}
+
+.mainTableBox tr td:nth-child(odd) {
+    width: 36%;
+}
+
+
+.mainTableBox tr,
+.mainTableBox td {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 14px 0;
+}
+
+.containSec {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.containSec .containDesc {
+    position: relative;
+    padding-left: 61px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.4s ease-in-out;
+    line-height: 1.4;
+    display: inline-block;
+}
+
+.containImg {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    max-width: 42px;
+    max-height: 42px;
+}
+
+.productDetails,
+.productTable .productTitle,
+.mainTableBox td,
+.containSec {
+    padding-left: 65px;
+}
+
+
+/* product-details css end */
+
 /*  responsive -css*/
 @media only screen and (max-width: 1660px) {
     .faqsMain {
@@ -270,6 +499,27 @@
         margin-top: -110px;
         margin-right: 13px;
     }
+
+    .productDetails, .productTable .productTitle, .mainTableBox td, .containSec {
+        padding-left: 20px;
+    }
+
+    .productDetails{
+        padding: 40px 0;
+        padding-left: 20px;
+    }
+
+    .tableCat{
+        margin: 30px 0 60px;
+    }
+
+    .productDetailSec {
+        padding-bottom: 60px;
+    }
+
+    .caloriesCricle{
+        right: -9px;
+    }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -291,6 +541,14 @@
         margin-right: -75px;
         z-index: 99;
     }
+
+    .productlistcol:last-child {
+        width: 76%;
+    }
+    .caloriesCricle{width: 90px;height: 90px;padding: 26px 0;}
+    .caloriesCricle span{font-size: 22px;}
+    .caloriesCricle small{font-size: 15px;}
+    
 
 }
 
@@ -352,6 +610,109 @@
         margin-top: -100px;
         margin-right: -91px;
     }
+
+    /* product-details resposive start */
+    .productDetailSec {
+        padding-bottom: 40px;
+    }
+
+    .productDetailSec .secHead {
+        margin-bottom: 30px;
+    }
+
+    .productsBox {
+        padding: 0 7px;
+    }
+
+    .productBoxMain {
+        margin: 0 -7px;
+    }
+
+    .mainTableBox tr, .mainTableBox td{font-size: 16px;}
+    .containSec .containDesc{font-size: 22px;}
+    .containImg{max-width: 36px;max-height: 36px;top: -6px;}
+
+    .caloriesCricle span {
+        font-size: 26px;
+    }
+
+    .caloriesCricle small {
+        font-size: 16px;
+    }
+
+    .cartButton {
+        margin-left: -124px;
+    }
+
+    .cartButton .btn {
+        font-size: 14px;
+        min-width: 122px;
+        padding: 23px 30px;
+    }
+
+    .productDetails .quantityBox {
+        height: 75px;
+    }
+
+    .productDetails .quantityBox #quantityField {
+        padding-left: 36px;
+    }
+
+    .productDetails .quantityBox .qtyminus,
+    .productDetails .quantityBox .qtyplus {
+        left: 80px;
+    }
+
+    .cartButton .btn .icon {
+        padding: 0 6px;
+    }
+
+    .commonTitle {
+        width: 100%;
+    }
+
+    .productDetails {
+        padding: 30px 0;
+        padding-bottom: 40px;
+    }
+
+    .productDetails .productName .productTitle,
+    .productTable .productTitle {
+        font-size: 22px;
+    }
+
+    .tableCat .catName,
+    .tableCat .catPrice {
+        width: 50%;
+    }
+
+    .productDetails,
+    .productTable .productTitle,
+    .mainTableBox td,
+    .containSec {
+        padding-left: 30px;
+    }
+
+    .quantityBox .qtyplus {
+        height: 40%;
+    }
+
+    .quantityBox .qtyminus {
+        height: 40%;
+    }
+
+    .mainTableBox tr td:nth-child(odd),
+    .mainTableBox tr td:nth-child(even) {
+        width: 50%;
+    }
+
+    .tableCat {
+        margin: 30px 0 40px;
+    }
+
+
+
+    /* product-details resposive  end*/
 }
 
 @media only screen and (max-width: 991px) {
@@ -433,6 +794,123 @@
     .contactButton .btn{min-width: 180px;}
     .sendButton .btn{min-width: 130px;}
     .getTouchDesc{padding-top: 50px;}
+
+    /* product-details resposive  start*/
+    .productDetailSec .productlistcol:last-child {
+        width: 68%;
+    }
+
+    .productlistrow{
+        margin: 0 -7px;
+    }
+
+    .productsBox {
+        padding: 0 7px;
+    }
+
+    .caloriesCricle {
+        height: 80px;
+        width: 80px;
+        right: -11px;
+        top: -50px;
+        padding: 19px 0;
+    }
+    .addCartMain{padding-left: 20px;}
+
+    .caloriesCricle span {
+        font-size: 22px;
+    }
+
+    .caloriesCricle small {
+        font-size: 14px;
+    }
+
+    .productDetails .productName .productTitle,
+    .productTable .productTitle {
+        font-size: 18px;
+    }
+
+    .productDetails .productName .productTitle {
+        padding-bottom: 20px;
+    }
+
+    .productDetails .productName .productDesc {
+        font-size: 14px;
+    }
+
+    .mainTableBox tr td:nth-child(odd) {
+        width: 55%;
+    }
+
+    .mainTableBox tr td:nth-child(even) {
+        width: 45%;
+    }
+
+    .mainTableBox tr,
+    .mainTableBox td {
+        font-size: 14px;
+    }
+
+    .productDetails,
+    .productTable .productTitle,
+    .mainTableBox td,
+    .containSec {
+        padding-left: 15px;
+    }
+
+    .tableCat .catName,
+    .tableCat .catPrice {
+        width: 60%;
+    }
+
+    .catName,
+    .catPrice {
+        font-size: 16px;
+    }
+
+    .cartButton {
+        margin-left: -80px;
+    }
+
+    .cartButton .btn {
+        min-width: 95px;
+    }
+
+    .productDetails .quantityBox .qtyplus,
+    .productDetails .quantityBox .qtyminus {
+        left: 70px;
+    }
+
+    .productDetails .quantityBox .qtyplus{
+        bottom: 8px;
+    }
+
+    .containSec .containDesc {
+        font-size: 18px;
+        padding-left: 48px;
+    }
+
+    .productDetails .quantityBox {
+        height: 65px;
+        width: 195px;
+    }
+
+    .cartButton .btn {
+        padding: 18px 30px;
+        font-size: 0;
+    }
+
+    .containImg {
+        max-width: 30px;
+        max-height: 30px;
+        top: -4px;
+    }
+
+    .productDetails .quantityBox #quantityField {
+        padding-left: 27px;
+    }
+
+    /* product-details resposive  end*/
 
 }
 
@@ -544,6 +1022,69 @@
      .sendButton .btn{
         padding: 25px;
      }
+
+      /* product-details resposive  start*/
+    .productDetailSec {
+        padding-bottom: 30px;
+    }
+
+    .productDetailSec {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .productDetailSec .productlistcol:last-child {
+        width: 100%;
+    }
+
+    .caloriesCricle span {
+        font-size: 22px;
+    }
+
+    .caloriesCricle {
+        right: -23px;
+    }
+
+    .caloriesCricle {
+        height: 75px;
+        width: 75px;
+        padding: 16px 0;
+    }
+
+    .tableCat {
+        margin: 30px 0 35px;
+    }
+
+    .mainTableBox tr td:nth-child(odd),
+    .mainTableBox tr td:nth-child(even) {
+        width: 50%;
+    }
+
+    .productDetails .quantityBox .qtyplus {
+        bottom: 10px;
+    }
+
+    .cartButton .btn {
+        padding: 18px 30px;  
+    }
+
+    .containImg {
+        max-width: 20px;
+        max-height: 20px;
+        top: 0px;
+    }
+
+    .containSec .containDesc {
+        padding-left: 33px;
+        font-size: 16px;
+    }
+
+    .productDetails .quantityBox .qtyplus,
+    .productDetails .quantityBox .qtyminus {
+        left: 65px;
+    }
+
+    /* product-details resposive  end*/
 }
 
 
@@ -600,6 +1141,8 @@
     .contactDetails {
         padding-top: 20px;
     }
+    .productBoxMain .slick-dots{position: absolute;bottom: 14px;left: 0;right: 0;margin-top: 0;}
+
 
 }
 
@@ -619,6 +1162,79 @@
         width: 400px;
         margin-left: 40px;
     }
+    /* product details responsive start */
+    .caloriesCricle {
+        height: 70px;
+        width: 70px;
+        top: -37px;
+        right: -11px;
+    }
+
+    .caloriesCricle span {
+        font-size: 18px;
+    }
+
+    .caloriesCricle small {
+        font-size: 12px;
+    }
+
+    .addCartMain {
+        width: 83%;
+        padding-left: 0;
+    }
+    .productDetails{padding-bottom: 30px;}
+
+
+    .containSec .containDesc {
+        padding-left: 34px;
+        font-size: 14px;
+    }
+
+    .containImg {
+        max-width: 20px;
+        max-height: 20px;
+        top: -1px;
+    }
+
+    .productDetailSec {
+        padding-bottom: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mainTableBox tr td:nth-child(odd) {
+        width: 60%;
+    }
+
+    .mainTableBox tr td:nth-child(even) {
+        width: 40%;
+    }
+
+    .productDetails,
+    .productTable .productTitle,
+    .mainTableBox td,
+    .containSec {
+        padding-left: 0;
+    }
+
+    .productName {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .productDetails .productName .productTitle {
+        padding-bottom: 15px;
+    }
+
+    .tableCat {
+        margin: 0 0 20px;
+    }
+
+    .productDetailSec tr td{
+        padding: 10px 15px;
+    }
+
+    /* product details responsive end */
 
 }
 
@@ -630,5 +1246,5 @@
 }
 @media only screen and (max-width: 320px) {
 .formTitle{padding-left: 0;text-align: center;}
-    .burgerImg{width: 315px;margin-top: -53px;}
+.burgerImg{width: 315px;margin-top: -53px;}
 }
